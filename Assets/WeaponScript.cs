@@ -10,8 +10,8 @@ public class WeaponScript : MonoBehaviour
     public AudioClip shoot;
     public float fireRate = 0.1f;   // velocidad de disparo
     public float firePower = 20f;
-
-    [SerializeField] private ParticleSystem muzzleFlash;
+    public ParticleSystem muzzleFlash;
+    
     private float nextFireTime = 0f;
     private bool isFiring = false;
 

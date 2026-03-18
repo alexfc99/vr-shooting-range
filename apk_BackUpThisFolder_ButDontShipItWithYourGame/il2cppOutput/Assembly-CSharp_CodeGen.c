@@ -189,7 +189,13 @@ extern void XRPokeFollowAffordanceFill_OnTransformTweenableVariableUpdated_m8B3C
 extern void XRPokeFollowAffordanceFill_OnPokeStrengthChanged_m480B681A9BE7B6C71724392FC3368A029EA4CED6 (void);
 extern void XRPokeFollowAffordanceFill_OnPokeStateDataUpdated_m6233708D9CEEA9A7920B821FDBD306F4D7CBFAE6 (void);
 extern void XRPokeFollowAffordanceFill__ctor_mAED1746F6E90C5676967671BFBB11E3B7C6B1E98 (void);
-static Il2CppMethodPointer s_methodPointers[182] = 
+extern void changeEffects_Start_mEBB092CE0E9727DA3EC8F6988297E295C1EC63C2 (void);
+extern void changeEffects_FixedUpdate_m5AB5708CCADE6DF2DB17580732CDED81B3326929 (void);
+extern void changeEffects_NextEffect_m46DEA244BC51B02063282F056F09F844D095E143 (void);
+extern void changeEffects_PrevEffect_mD91432323E77A48F6A3E3F5199AB313FC785A351 (void);
+extern void changeEffects_RefreshEffect_m3DE14219970BADCFA35EE3BAD1133C253FEB382A (void);
+extern void changeEffects__ctor_m318350F1863009406A7CF3C4B7242730421D0627 (void);
+static Il2CppMethodPointer s_methodPointers[188] = 
 {
 	BulletScript_OnEnable_m7C8439F7758DF979F75BE07BBCA9BFE309DFABA3,
 	BulletScript_OnCollisionEnter_m89FBBDFD6D949CEEF725028DE485FFC6EE244B84,
@@ -373,6 +379,12 @@ static Il2CppMethodPointer s_methodPointers[182] =
 	XRPokeFollowAffordanceFill_OnPokeStrengthChanged_m480B681A9BE7B6C71724392FC3368A029EA4CED6,
 	XRPokeFollowAffordanceFill_OnPokeStateDataUpdated_m6233708D9CEEA9A7920B821FDBD306F4D7CBFAE6,
 	XRPokeFollowAffordanceFill__ctor_mAED1746F6E90C5676967671BFBB11E3B7C6B1E98,
+	changeEffects_Start_mEBB092CE0E9727DA3EC8F6988297E295C1EC63C2,
+	changeEffects_FixedUpdate_m5AB5708CCADE6DF2DB17580732CDED81B3326929,
+	changeEffects_NextEffect_m46DEA244BC51B02063282F056F09F844D095E143,
+	changeEffects_PrevEffect_mD91432323E77A48F6A3E3F5199AB313FC785A351,
+	changeEffects_RefreshEffect_m3DE14219970BADCFA35EE3BAD1133C253FEB382A,
+	changeEffects__ctor_m318350F1863009406A7CF3C4B7242730421D0627,
 };
 extern void TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk (void);
 extern void TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk (void);
@@ -385,7 +397,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] =
 	{ 0x0600009C, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
 	{ 0x0600009D, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[182] = 
+static const int32_t s_InvokerIndices[188] = 
 {
 	15479,
 	11752,
@@ -569,12 +581,18 @@ static const int32_t s_InvokerIndices[182] =
 	11843,
 	11779,
 	15479,
+	15479,
+	15479,
+	15479,
+	15479,
+	15479,
+	15479,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	182,
+	188,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

@@ -802,6 +802,7 @@ UnityEngine.HDROutputSettings::SetAutomaticHDRTonemapping
 UnityEngine.HDROutputSettings::GetDisplayColorGamut
 UnityEngine.HDROutputSettings::GetGraphicsFormat
 UnityEngine.Input::CheckDisabled
+UnityEngine.Input::GetKeyDownInt
 UnityEngine.Input::GetKeyInt
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
