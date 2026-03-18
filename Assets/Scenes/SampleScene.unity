@@ -14363,7 +14363,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -14376,7 +14376,7 @@ Transform:
   m_GameObject: {fileID: 1951809536}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.314, z: 0.618}
+  m_LocalPosition: {x: 0, y: 1.3214, z: 0.618}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14466,8 +14466,8 @@ MonoBehaviour:
   m_AttachTransform: {fileID: 1222582065}
   m_SecondaryAttachTransform: {fileID: 2059223538}
   m_UseDynamicAttach: 1
-  m_MatchAttachPosition: 0
-  m_MatchAttachRotation: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
@@ -14532,8 +14532,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponScript
   firePoint: {fileID: 1254362823}
   bulletPrefab: {fileID: 4617593337334117177, guid: deb31b7d1c55e53e4a4c53a4e9cf6a70, type: 3}
-  fireRate: 0.25
-  firePower: 15
+  fireRate: 0.15
+  firePower: 25
 --- !u!1 &1961494665
 GameObject:
   m_ObjectHideFlags: 0
