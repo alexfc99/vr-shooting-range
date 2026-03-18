@@ -6,10 +6,12 @@ public class WeaponScript : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
-
+    public AudioSource audioSource;
+    public AudioClip shoot;
     public float fireRate = 0.1f;   // velocidad de disparo
     public float firePower = 20f;
 
+    [SerializeField] private ParticleSystem muzzleFlash;
     private float nextFireTime = 0f;
     private bool isFiring = false;
 
@@ -56,7 +58,12 @@ public class WeaponScript : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-
+        audioSource.PlayOneShot(shoot);
+        if (muzzleFlash != null)
+        {
+            muzzleFlash.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            muzzleFlash.Play();
+        }
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
         rb.linearVelocity = firePoint.forward * firePower;
     }
