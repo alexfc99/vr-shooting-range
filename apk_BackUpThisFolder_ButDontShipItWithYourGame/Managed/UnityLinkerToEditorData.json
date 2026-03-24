@@ -11,7 +11,7 @@
           {
             "name": "Animation",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -19,7 +19,7 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -27,7 +27,7 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -35,7 +35,7 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -49,7 +49,7 @@
           {
             "name": "Behaviour",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -69,7 +69,7 @@
           {
             "name": "RotationConstraint",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -88,7 +88,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -96,7 +96,7 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -104,7 +104,7 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -118,7 +118,7 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -126,7 +126,7 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -163,7 +163,7 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -183,7 +183,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -203,7 +203,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -217,7 +217,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -242,16 +242,14 @@
           },
           {
             "name": "LODGroup",
-            "scenes": [
-              "Assets/Scenes/Demo.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -259,7 +257,7 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -267,7 +265,7 @@
           {
             "name": "LightProbeGroup",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -280,22 +278,22 @@
           },
           {
             "name": "LightProbes",
-            "scenes": [
-              "Assets/Scenes/Demo.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LightingSettings",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -303,7 +301,7 @@
           {
             "name": "LineRenderer",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -317,7 +315,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -325,7 +323,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -333,7 +331,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -341,7 +339,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -349,7 +347,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -363,7 +361,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -371,7 +369,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -409,7 +407,7 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -417,7 +415,7 @@
           {
             "name": "ReflectionProbe",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -425,7 +423,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -457,7 +455,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -471,7 +469,7 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -485,7 +483,7 @@
           {
             "name": "SortingGroup",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -493,7 +491,7 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -683,12 +681,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.terrain"
-          },
-          {
-            "name": "Required by TerrainPhysics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.terrainphysics"
           },
           {
             "name": "Required by TextCoreFontEngine Module",
@@ -981,13 +973,17 @@
         "dependencies": [
           {
             "name": "ParticleSystem",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "ParticleSystemRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }
@@ -999,7 +995,7 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1007,7 +1003,7 @@
           {
             "name": "CapsuleCollider",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1015,7 +1011,7 @@
           {
             "name": "CharacterController",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1029,7 +1025,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1041,24 +1037,28 @@
             "icon": null
           },
           {
+            "name": "PhysicsMaterial",
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
-          },
-          {
-            "name": "Required by TerrainPhysics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.terrainphysics"
           },
           {
             "name": "Required by UIElements Module",
@@ -1249,12 +1249,6 @@
             "icon": "package/com.unity.modules.terrain"
           },
           {
-            "name": "Required by TerrainPhysics Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.terrainphysics"
-          },
-          {
             "name": "Required by TextCoreFontEngine Module",
             "scenes": [],
             "dependencyType": 2,
@@ -1391,44 +1385,13 @@
         "dependencies": [
           {
             "name": "Terrain",
-            "scenes": [
-              "Assets/Scenes/Demo.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "TerrainData",
-            "scenes": [
-              "Assets/Scenes/Demo.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "TerrainLayer",
-            "scenes": [
-              "Assets/Scenes/Demo.unity"
-            ],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Required by TerrainPhysics Module",
             "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.terrainphysics"
-          }
-        ]
-      },
-      {
-        "name": "TerrainPhysics",
-        "dependencies": [
-          {
-            "name": "TerrainCollider",
-            "scenes": [
-              "Assets/Scenes/Demo.unity"
-            ],
             "dependencyType": 0,
             "icon": null
           }
@@ -1474,7 +1437,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1517,7 +1480,7 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1525,7 +1488,7 @@
           {
             "name": "CanvasGroup",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1533,7 +1496,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/Demo.unity"
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1721,8 +1684,18 @@
         "name": "Video",
         "dependencies": [
           {
+            "name": "VideoClip",
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "VideoPlayer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }
