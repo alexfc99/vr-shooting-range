@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
@@ -17,6 +18,10 @@ public class WeaponScript : MonoBehaviour
 
     private XRGrabInteractable _interactable;
 
+    void Start()
+    {
+        muzzleFlash.Stop();
+    }
     void Awake()
     {
         _interactable = GetComponent<XRGrabInteractable>();
@@ -47,23 +52,26 @@ public class WeaponScript : MonoBehaviour
 
     void StartFiring(ActivateEventArgs args)
     {
+        muzzleFlash.Play();
         isFiring = true;
     }
 
     void StopFiring(DeactivateEventArgs args)
     {
         isFiring = false;
+        muzzleFlash.Stop();
     }
 
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         audioSource.PlayOneShot(shoot);
+
         if (muzzleFlash != null)
         {
-            muzzleFlash.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-            muzzleFlash.Play();
+            muzzleFlash.Emit(1); // emite 1 partícula instantánea
         }
+
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
         rb.linearVelocity = firePoint.forward * firePower;
     }
