@@ -1748,8 +1748,7 @@ GameObject:
   - component: {fileID: 240058476}
   - component: {fileID: 240058479}
   - component: {fileID: 240058478}
-  - component: {fileID: 240058477}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1771,27 +1770,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1951809539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &240058477
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240058475}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.041252866, y: 0.071491316, z: 0.04343319}
-  m_Center: {x: -0.00717625, y: -0.00059212, z: -0.116518974}
 --- !u!65 &240058478
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9482,6 +9460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222582065}
+  - component: {fileID: 1222582066}
   m_Layer: 0
   m_Name: HandGrabPrimary
   m_TagString: Untagged
@@ -9498,12 +9477,33 @@ Transform:
   m_GameObject: {fileID: 1222582064}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0079, z: -0.1167}
+  m_LocalPosition: {x: 0, y: -0.0082, z: -0.1167}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1951809539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1222582066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222582064}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.047771633, y: 0.06803322, z: 0.041099817}
+  m_Center: {x: -0.00020715594, y: 0.0031102896, z: 0.00059758127}
 --- !u!1 &1225198456
 GameObject:
   m_ObjectHideFlags: 0
@@ -13593,6 +13593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5052613425632232464, guid: deb31b7d1c55e53e4a4c53a4e9cf6a70, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14376,7 +14380,7 @@ Transform:
   m_GameObject: {fileID: 1951809536}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3214, z: 0.618}
+  m_LocalPosition: {x: 0, y: 1.3093, z: 0.618}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14402,7 +14406,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1222582066}
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -14465,7 +14470,7 @@ MonoBehaviour:
   m_ParentInteractableObject: {fileID: 0}
   m_AttachTransform: {fileID: 1222582065}
   m_SecondaryAttachTransform: {fileID: 2059223538}
-  m_UseDynamicAttach: 1
+  m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -14533,7 +14538,7 @@ MonoBehaviour:
   firePoint: {fileID: 1254362823}
   bulletPrefab: {fileID: 4617593337334117177, guid: deb31b7d1c55e53e4a4c53a4e9cf6a70, type: 3}
   fireRate: 0.15
-  firePower: 25
+  firePower: 50
 --- !u!1 &1961494665
 GameObject:
   m_ObjectHideFlags: 0
@@ -15405,6 +15410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2059223538}
+  - component: {fileID: 2059223539}
   m_Layer: 0
   m_Name: HandGrabSecondary
   m_TagString: Untagged
@@ -15421,12 +15427,33 @@ Transform:
   m_GameObject: {fileID: 2059223537}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0427, z: 0.1274}
+  m_LocalPosition: {x: 0, y: 0.021, z: 0.1274}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1951809539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2059223539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059223537}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.048492506, y: 0.014076114, z: 0.060756326}
+  m_Center: {x: 0.0008782223, y: 0.020959556, z: -0.013944387}
 --- !u!1 &2064529225
 GameObject:
   m_ObjectHideFlags: 0
