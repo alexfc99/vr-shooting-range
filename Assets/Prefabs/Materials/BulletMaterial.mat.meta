@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/Range/LightingData.asset.meta
+guid: 676f1c9a6feb19c3a943c13bf28e745b
+========
+guid: 638ea8f69fa49d6cdb940f246e504133
+>>>>>>>> origin/main:Assets/Prefabs/Materials/BulletMaterial.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

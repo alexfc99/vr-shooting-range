@@ -1,20 +1,45 @@
+using System.Collections;
+using Scriptables;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class WeaponScript : MonoBehaviour
 {
-    public Transform firePoint;
-    public GameObject bulletPrefab;
-
-    public float fireRate = 0.1f;   // velocidad de disparo
-    public float firePower = 20f;
-
+    private XRGrabInteractable _interactable;
+    
+    [SerializeField] private Weapon weapon;
+    
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    private AudioClip shoot; 
+    
+    [Header("Fire Settings")]
+    public Transform firePoint; 
+    private float fireRate;   
+    private float firePower;
+    private int ammo;
+    
+    [Header("VFX Settings")]
+    public ParticleSystem muzzleFlash; 
+    
     private float nextFireTime = 0f;
     private bool isFiring = false;
+    private bool isReloading = false;
 
-    private XRGrabInteractable _interactable;
-
+    void Start()
+    {
+        muzzleFlash.Stop();
+       
+        if (weapon != null)
+        {
+            shoot = weapon.FireSound;
+            fireRate = weapon.FireRate;
+            firePower = weapon.FirePower;
+            ammo = weapon.MagCapacity;
+        }
+        
+    }
     void Awake()
     {
         _interactable = GetComponent<XRGrabInteractable>();
@@ -34,7 +59,7 @@ public class WeaponScript : MonoBehaviour
 
     void Update()
     {
-        if (!isFiring) return;
+        if (!isFiring || isReloading) return;
 
         if (Time.time >= nextFireTime)
         {
@@ -45,19 +70,63 @@ public class WeaponScript : MonoBehaviour
 
     void StartFiring(ActivateEventArgs args)
     {
+        
         isFiring = true;
     }
 
+    /*void StartFiring2()
+    {
+        
+        isFiring = true;
+    }*/
+    
+    
     void StopFiring(DeactivateEventArgs args)
     {
         isFiring = false;
+        //muzzleFlash.Stop();
     }
 
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        if (ammo > 0)
+        {
+            ammo--;
+            audioSource.PlayOneShot(shoot);
 
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        rb.linearVelocity = firePoint.forward * firePower;
+            if (muzzleFlash != null)
+            {
+                muzzleFlash.Emit(1); // emite 1 partícula instantánea
+            }
+
+            GameObject bulletGO = Instantiate(weapon.Bullet.BulletPrefab, firePoint.position, firePoint.rotation);
+            BulletScript bulletScript = bulletGO.GetComponent<BulletScript>();
+
+            
+            bulletScript.Init(weapon.Bullet, 2.5f);
+
+           
+            bulletScript.Launch(firePoint.forward, firePower);
+            
+        }
+        else
+        {
+            if (!isReloading)
+                StartCoroutine(Reload());
+        }
+        
+    }
+
+    private IEnumerator Reload()
+    {
+        isReloading = true;
+
+        Debug.Log("Reload called");
+
+        yield return new WaitForSeconds(weapon.ReloadTime);
+
+        ammo = weapon.MagCapacity;
+
+        isReloading = false;
     }
 }
