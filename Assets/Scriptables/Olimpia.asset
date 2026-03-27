@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4719695e315003763ab43e3a697f3b0d, type: 3}
-  m_Name: AR47
-  m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  model: AK-47
-  damage: 40
-  fireRate: 0.1
-  firePower: 50
-  reloadTime: 1.5
-  maxAmmo: 210
-  magCapacity: 30
-  bullet: {fileID: 11400000, guid: ef2ac9dce7bcc81dd9a47a0c35bbe3ec, type: 2}
+  m_Name: Olimpia
+  m_EditorClassIdentifier: Assembly-CSharp::Scriptables.Weapon
+  model: Olimpia
+  damage: 80
+  fireRate: 1
+  firePower: 80
+  reloadTime: 2
+  maxAmmo: 24
+  magCapacity: 2
+  bullet: {fileID: 11400000, guid: 840d7e2ef1f8b2e00b7ed7226e3b6f1a, type: 2}
   fireSound: {fileID: 8300000, guid: 78499e00fa6124be287f9d362892960c, type: 3}
-  fireType: 1
+  fireType: 3
   burstCount: 3
   pelletsPerShot: 8
-  spread: 0.019
+  spread: 0.08
