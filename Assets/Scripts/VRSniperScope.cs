@@ -39,7 +39,7 @@ public class VRSniperScope : MonoBehaviour
 
         bool shouldScope = inRange && aligned;
 
-        // DEBUG (puedes quitar luego)
+    
         Debug.Log($"DOT: {dot:F2} | DIST: {distance:F2} | SCOPE: {shouldScope}");
 
         // IMPORTANTE: estado único (evita bugs de "se queda encendido")
