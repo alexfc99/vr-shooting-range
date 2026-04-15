@@ -29,6 +29,11 @@ namespace Scriptables
         [SerializeField] private int pelletsPerShot = 8;
         [SerializeField, Range(0f, 1f)] private float spread = 0.08f;
 
+        // 🔊 NUEVO
+        [Header("Audio Settings")]
+        [SerializeField] private Vector2 pitchRange = new Vector2(0.95f, 1.05f);
+        [SerializeField] private Vector2 volumeRange = new Vector2(0.9f, 1f);
+
         public string Model { get => model; set => model = value; }
         public int Damage { get => damage; set => damage = value; }
         public float FireRate { get => fireRate; set => fireRate = value; }
@@ -43,5 +48,9 @@ namespace Scriptables
         public int BurstCount { get => burstCount; set => burstCount = value; }
         public int PelletsPerShot { get => pelletsPerShot; set => pelletsPerShot = value; }
         public float Spread { get => spread; set => spread = value; }
+
+        // 🔊 NUEVO getters
+        public Vector2 PitchRange { get => pitchRange; set => pitchRange = value; }
+        public Vector2 VolumeRange { get => volumeRange; set => volumeRange = value; }
     }
 }

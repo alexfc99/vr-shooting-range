@@ -25,3 +25,5 @@ MonoBehaviour:
   burstCount: 3
   pelletsPerShot: 8
   spread: 0.08
+  pitchRange: {x: 0.75, y: 0.81}
+  volumeRange: {x: 2.02, y: 2.67}

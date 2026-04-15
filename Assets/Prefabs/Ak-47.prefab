@@ -56,12 +56,12 @@ Transform:
   m_GameObject: {fileID: 2145509609108899800}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.002, y: 0.064, z: 0.383}
+  m_LocalPosition: {x: -0.002, y: 0.06400013, z: 0.38299996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4069319950295586037}
-  m_Father: {fileID: 2536807209786060364}
+  m_Father: {fileID: 43288975432312675}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3130507416669583009
 GameObject:
@@ -155,7 +155,6 @@ Transform:
   - {fileID: 5843103532880622588}
   - {fileID: 839384991985995367}
   - {fileID: 5447510243446989590}
-  - {fileID: 4722950677339417770}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &7554129265212803749
@@ -331,6 +330,11 @@ MonoBehaviour:
   audioSource: {fileID: 673126439210658715}
   firePoint: {fileID: 4722950677339417770}
   muzzleFlash: {fileID: 4069319950314983863}
+  weaponModel: {fileID: 0}
+  recoilBackAmount: 0.02
+  recoilUpAmount: 5
+  recoilRecoverySpeed: 8
+  enableTesting: 1
 --- !u!82 &673126439210658715
 AudioSource:
   m_ObjectHideFlags: 0
@@ -458,6 +462,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9002307020036674005}
+  - {fileID: 4722950677339417770}
   m_Father: {fileID: 2536807209786060364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8323179034664198308

@@ -1,8 +1,10 @@
+using System;
 using System.Collections;
 using Scriptables;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using Random = UnityEngine.Random;
 
 public class WeaponScript : MonoBehaviour
 {
@@ -18,6 +20,21 @@ public class WeaponScript : MonoBehaviour
 
     [Header("VFX Settings")]
     [SerializeField] private ParticleSystem muzzleFlash;
+
+    [Header("Recoil Settings")]
+    [SerializeField] private Transform weaponModel; // 🔥 IMPORTANTE (hijo)
+    [SerializeField] private float recoilBackAmount = 0.02f;
+    [SerializeField] private float recoilUpAmount = 5f;
+    [SerializeField] private float recoilRecoverySpeed = 8f;
+
+    [Header("Testing")]
+    [SerializeField] private bool enableTesting = true;
+
+    private Vector3 modelOriginalPos;
+    private Quaternion modelOriginalRot;
+
+    private Vector3 recoilOffset;
+    private Vector3 recoilRotation;
 
     private AudioClip shoot;
     private float fireRate;
@@ -39,9 +56,15 @@ public class WeaponScript : MonoBehaviour
         if (weapon == null) return;
 
         shoot = weapon.FireSound;
-        fireRate = weapon.FireRate;
+        fireRate = Mathf.Max(weapon.FireRate, 0.05f); // evita locuras
         firePower = weapon.FirePower;
         ammo = weapon.MagCapacity;
+
+        if (weaponModel != null)
+        {
+            modelOriginalPos = weaponModel.localPosition;
+            modelOriginalRot = weaponModel.localRotation;
+        }
 
         if (muzzleFlash != null)
             muzzleFlash.Stop();
@@ -49,39 +72,70 @@ public class WeaponScript : MonoBehaviour
 
     private void OnEnable()
     {
-        _interactable.activated.AddListener(StartFiring);
-        _interactable.deactivated.AddListener(StopFiring);
+        if (_interactable != null)
+        {
+            _interactable.activated.AddListener(StartFiring);
+            _interactable.deactivated.AddListener(StopFiring);
+        }
     }
 
     private void OnDisable()
     {
-        _interactable.activated.RemoveListener(StartFiring);
-        _interactable.deactivated.RemoveListener(StopFiring);
+        if (_interactable != null)
+        {
+            _interactable.activated.RemoveListener(StartFiring);
+            _interactable.deactivated.RemoveListener(StopFiring);
+        }
     }
 
     private void Update()
     {
-        if (isReloading || weapon == null) return;
+        if (weapon == null) return;
 
-        switch (weapon.FireType)
+        if (!isReloading)
         {
-            case FireType.FullAuto:
-                HandleFullAuto();
-                break;
+            switch (weapon.FireType)
+            {
+                case FireType.FullAuto:
+                    HandleFullAuto();
+                    break;
 
-            case FireType.Burst:
-                HandleBurst();
-                break;
+                case FireType.Burst:
+                    HandleBurst();
+                    break;
+            }
+        }
+
+       
+        HandleTestInput();
+    }
+
+    // 🎮 TEST SIN VR
+    private void HandleTestInput()
+    {
+        if (!enableTesting) return;
+
+        if (Input.GetMouseButtonDown(0))
+            StartFiring(null);
+
+        if (Input.GetMouseButtonUp(0))
+            StopFiring(null);
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (!isReloading)
+                StartCoroutine(Reload());
         }
     }
 
-    private void StartFiring(ActivateEventArgs args)
+    public void StartFiring(ActivateEventArgs args)
     {
         if (weapon == null || isReloading) return;
 
         switch (weapon.FireType)
         {
             case FireType.SemiAuto:
+            case FireType.Shotgun:
                 TryShoot();
                 break;
 
@@ -91,10 +145,6 @@ public class WeaponScript : MonoBehaviour
 
             case FireType.Burst:
                 TryStartBurst();
-                break;
-
-            case FireType.Shotgun:
-                TryShoot();
                 break;
         }
     }
@@ -117,7 +167,7 @@ public class WeaponScript : MonoBehaviour
 
     private void HandleBurst()
     {
-        if (!isFiring) return;
+        // vacío (ya controlado por coroutine)
     }
 
     private void TryStartBurst()
@@ -154,22 +204,33 @@ public class WeaponScript : MonoBehaviour
 
         ammo--;
 
+        // 🔊 AUDIO
         if (audioSource != null && shoot != null)
-            audioSource.PlayOneShot(shoot);
+        {
+            float pitch = Random.Range(weapon.PitchRange.x, weapon.PitchRange.y);
+            float volume = Random.Range(weapon.VolumeRange.x, weapon.VolumeRange.y);
 
+            if (weapon.FireType == FireType.FullAuto)
+                pitch += Random.Range(-0.05f, 0.05f);
+
+            audioSource.pitch = pitch;
+            audioSource.volume = volume;
+
+            audioSource.PlayOneShot(shoot);
+        }
+
+        // 🔥 VFX
         if (muzzleFlash != null)
             muzzleFlash.Emit(1);
 
-        switch (weapon.FireType)
-        {
-            case FireType.Shotgun:
-                FireShotgun();
-                break;
+        // 🔫 DISPARO
+        if (weapon.FireType == FireType.Shotgun)
+            FireShotgun();
+        else
+            FireSingleBullet(firePoint.forward, firePoint.rotation);
 
-            default:
-                FireSingleBullet(firePoint.forward, firePoint.rotation);
-                break;
-        }
+        // 🔁 RECOIL
+        ApplyRecoil();
 
         if (ammo <= 0 && !isReloading)
             StartCoroutine(Reload());
@@ -206,6 +267,29 @@ public class WeaponScript : MonoBehaviour
         );
 
         return (forward + randomSpread).normalized;
+    }
+
+    // 🔫 RECOIL (solo visual en hijo)
+    private void ApplyRecoil()
+    {
+        recoilOffset += new Vector3(0, 0, -recoilBackAmount);
+        recoilRotation += new Vector3(-recoilUpAmount, Random.Range(-1f, 1f), 0);
+    }
+
+    private void LateUpdate()
+    {
+        HandleRecoil();
+    }
+
+    private void HandleRecoil()
+    {
+        if (weaponModel == null) return;
+
+        recoilOffset = Vector3.Lerp(recoilOffset, Vector3.zero, Time.deltaTime * recoilRecoverySpeed);
+        recoilRotation = Vector3.Lerp(recoilRotation, Vector3.zero, Time.deltaTime * recoilRecoverySpeed);
+
+        weaponModel.localPosition = modelOriginalPos + recoilOffset;
+        weaponModel.localRotation = modelOriginalRot * Quaternion.Euler(recoilRotation);
     }
 
     private IEnumerator Reload()
