@@ -382,6 +382,7 @@ UnityEngine.Camera::ScreenToWorldPoint_Injected
 UnityEngine.Camera::SetStereoProjectionMatrix_Injected
 UnityEngine.Camera::SetStereoViewMatrix_Injected
 UnityEngine.Camera::SetupCurrent_Injected
+UnityEngine.Camera::ViewportToWorldPoint_Injected
 UnityEngine.Camera::WorldToScreenPoint_Injected
 UnityEngine.Camera::WorldToViewportPoint_Injected
 UnityEngine.Camera::get_backgroundColor_Injected
@@ -1046,6 +1047,7 @@ UnityEngine.Object::ToString_Injected
 UnityEngine.Object::set_hideFlags_Injected
 UnityEngine.Object::get_hideFlags_Injected
 UnityEngine.Object::FindObjectsByType
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectDispatcher::CreateDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DestroyDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DispatchTransformDataChangesAndClear
@@ -1065,6 +1067,7 @@ UnityEngine.ParticleSystem/MainModule::get_loop
 UnityEngine.ParticleSystem/MainModule::get_startColorBlittable_Injected
 UnityEngine.ParticleSystem/MainModule::get_startSizeBlittable_Injected
 UnityEngine.ParticleSystemRenderer::GetMeshes_Injected
+UnityEngine.Physics::CheckSphere_Internal_Injected
 UnityEngine.Physics::GetIgnoreCollision_Injected
 UnityEngine.Physics::get_invokeCollisionCallbacks
 UnityEngine.Physics::get_queriesHitTriggers
@@ -1817,6 +1820,7 @@ UnityEngine.Transform::GetChild_Injected
 UnityEngine.Transform::GetParent_Injected
 UnityEngine.Transform::GetLocalPositionAndRotation_Injected
 UnityEngine.Transform::GetPositionAndRotation_Injected
+UnityEngine.Transform::Internal_LookAt_Injected
 UnityEngine.Transform::InverseTransformDirection_Injected
 UnityEngine.Transform::InverseTransformPoint_Injected
 UnityEngine.Transform::InverseTransformVector_Injected
