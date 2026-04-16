@@ -15,7 +15,7 @@ MonoBehaviour:
   model: Desert Eagle
   damage: 50
   fireRate: 1
-  firePower: 60
+  firePower: 70
   reloadTime: 2
   maxAmmo: 28
   magCapacity: 7

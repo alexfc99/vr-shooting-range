@@ -53,6 +53,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.048492506, y: 0.014076114, z: 0.060756326}
   m_Center: {x: 0.0008782223, y: 0.020959556, z: -0.013944387}
+--- !u!1 &1133850497925643316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6796569810050695518}
+  m_Layer: 0
+  m_Name: RecoilPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6796569810050695518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133850497925643316}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3487788075184403783}
+  - {fileID: 3030409988185250831}
+  m_Father: {fileID: 5816915340752828105}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4960934767924236922
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +146,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3487788075184403783}
+  - {fileID: 6796569810050695518}
   m_Father: {fileID: 2658489667180004281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7460121685298611139
@@ -261,7 +294,6 @@ Transform:
   - {fileID: 2419201794090934197}
   - {fileID: 2851929881299760108}
   - {fileID: 6401955347674703452}
-  - {fileID: 3030409988185250831}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &3231183421338017967
@@ -437,6 +469,11 @@ MonoBehaviour:
   audioSource: {fileID: 6236941502177448361}
   firePoint: {fileID: 3030409988185250831}
   muzzleFlash: {fileID: 8527005124749430664}
+  weaponModel: {fileID: 0}
+  recoilBackAmount: 0.02
+  recoilUpAmount: 5
+  recoilRecoverySpeed: 8
+  enableTesting: 1
 --- !u!82 &6236941502177448361
 AudioSource:
   m_ObjectHideFlags: 0
@@ -559,12 +596,12 @@ Transform:
   m_GameObject: {fileID: 8303624024098856997}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.002, y: 0.064, z: 0.383}
+  m_LocalPosition: {x: -0.001999855, y: 0.06400001, z: 0.38300002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8527005124764633802}
-  m_Father: {fileID: 2658489667180004281}
+  m_Father: {fileID: 6796569810050695518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8809561787454742840
 GameObject:
@@ -625,7 +662,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 5816915340752828105}
+    m_TransformParent: {fileID: 6796569810050695518}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2cf10fa706c7a4d42b5927d8e730f4e2, type: 3}
       propertyPath: m_LocalScale.x

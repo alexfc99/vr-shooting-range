@@ -15,7 +15,7 @@ MonoBehaviour:
   model: MP5
   damage: 25
   fireRate: 0.075
-  firePower: 35
+  firePower: 60
   reloadTime: 1.2
   maxAmmo: 180
   magCapacity: 30
