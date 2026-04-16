@@ -15,7 +15,7 @@ MonoBehaviour:
   model: AWP
   damage: 120
   fireRate: 1
-  firePower: 100
+  firePower: 155
   reloadTime: 1.5
   maxAmmo: 24
   magCapacity: 6

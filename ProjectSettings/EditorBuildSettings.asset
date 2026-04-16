@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ShootField.unity
     guid: b0e400ce24d15f41f86954ea051e7adc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Demo.unity
     guid: f56f47260ea6ff54cb92d3bbd0f313ed
   - enabled: 1

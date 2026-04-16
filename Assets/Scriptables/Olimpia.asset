@@ -15,7 +15,7 @@ MonoBehaviour:
   model: Olimpia
   damage: 80
   fireRate: 1
-  firePower: 80
+  firePower: 150
   reloadTime: 2
   maxAmmo: 24
   magCapacity: 2
@@ -24,6 +24,6 @@ MonoBehaviour:
   fireType: 3
   burstCount: 3
   pelletsPerShot: 8
-  spread: 0.08
+  spread: 0.03
   pitchRange: {x: 0.75, y: 0.81}
   volumeRange: {x: 2.02, y: 2.67}

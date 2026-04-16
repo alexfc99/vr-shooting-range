@@ -15,7 +15,7 @@ MonoBehaviour:
   model: AK-47
   damage: 40
   fireRate: 0.1
-  firePower: 70
+  firePower: 150
   reloadTime: 1.5
   maxAmmo: 210
   magCapacity: 30
