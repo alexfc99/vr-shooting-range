@@ -97,6 +97,14 @@ public class TargetSpawner : MonoBehaviour
             activeMovingTargets.Add(newData);
         }
     }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {
