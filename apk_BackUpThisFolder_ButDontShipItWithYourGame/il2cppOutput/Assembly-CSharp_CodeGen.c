@@ -131,10 +131,33 @@ extern void GunsMenu_NextGun_mE337CA54D0695859E9E1853FDC6E8107B73F8E13 (void);
 extern void GunsMenu_PreviousGun_m696007829BFB985202FF01AB4C574D9A55F2CE18 (void);
 extern void GunsMenu_Update_mDE9D389D03BE22939CFAC346F50051ACD8E3B0BA (void);
 extern void GunsMenu__ctor_m142490DEA3C5159665DA96C643DC4453A90E1427 (void);
+extern void InterfaceScript_Awake_m4EE89601FB7638BE21E3590362B775AA2BDD6AAF (void);
+extern void InterfaceScript_AddScore_m62B9C471302C949A283059AD7A9A96AD255F455A (void);
+extern void InterfaceScript_SetScore_m365CE35996A8EADDB77A52C19453376E6B021764 (void);
+extern void InterfaceScript_UpdateScoreUI_mA71816800A59CCA685157F5096CD0B4EF330193D (void);
+extern void InterfaceScript__ctor_mDB05EE4666F03F07ED2CDF7C78C3F82535B59356 (void);
 extern void ScoreCanvaCard_Start_m5653490EDC53EF7E70FA4562F4FAA1BFFB140512 (void);
 extern void ScoreCanvaCard_Update_m2441FDF1C2B661DFF336C0D8AEFD91ABCA17EC09 (void);
 extern void ScoreCanvaCard_AddScore_m46512B793B221E9781AB790C49F7AAB1872FA6D8 (void);
 extern void ScoreCanvaCard__ctor_m6A36BBBD2945041EA43A65B2C5B2B1437D3484AB (void);
+extern void StartGameScript_add_OnScoreChanged_mFDDBDEC617583E5A34D3D9CFD354E1F488025FCE (void);
+extern void StartGameScript_remove_OnScoreChanged_m7E992CE153BC489B15044BD1E6FE7FBB83AD4E1C (void);
+extern void StartGameScript_StartGame_mB23EC7BACFF9974A7F3292ABFE256EACCEB221C6 (void);
+extern void StartGameScript_PlayMusic_m8527817862451130B1C1AF104C46D9BC46356215 (void);
+extern void StartGameScript_Update_mB7A8E9D2FBA75D2A19F5CA03226F68C3D2677B83 (void);
+extern void StartGameScript__ctor_m1B5763567738892E49446C7720C1DFBB22B09E03 (void);
+extern void TargetSpawner_Start_mB5BDF98FC368763F3A9970D95B427372CA162452 (void);
+extern void TargetSpawner_SpawnTargetsRoutine_m93DDACD3AEDC22D6A52BA6822FD484AAB4CEDA17 (void);
+extern void TargetSpawner_SpawnTarget_m3DB6AC87B0CF31E808FC6E5C8B91E0EC3BBC0343 (void);
+extern void TargetSpawner_Update_m35B0381990A4C9394570D17460EEA4A814B97702 (void);
+extern void TargetSpawner__ctor_mA9EC027F050526ABFE499761DB21BBC6EA25A46B (void);
+extern void MovingTargetData__ctor_mD1DE480439AEB068F7968B6453C5C99F9D537388 (void);
+extern void U3CSpawnTargetsRoutineU3Ed__17__ctor_mE0A1550DB8EC63536F45F4BB8B8D2E8788A4E285 (void);
+extern void U3CSpawnTargetsRoutineU3Ed__17_System_IDisposable_Dispose_mBF47AD3BCCA6ADFA31013161CBDCB0C83130379F (void);
+extern void U3CSpawnTargetsRoutineU3Ed__17_MoveNext_mA375223EBF8D8EF0047F2B9A0613793B4D40D960 (void);
+extern void U3CSpawnTargetsRoutineU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE0B13E8A10E585CFB55C7293B40F300B5A301D44 (void);
+extern void U3CSpawnTargetsRoutineU3Ed__17_System_Collections_IEnumerator_Reset_mEAAC55F28F0DFFB08FD6FD22EF43D364E213AC25 (void);
+extern void U3CSpawnTargetsRoutineU3Ed__17_System_Collections_IEnumerator_get_Current_m3677D0074D6668AC0E17FEDAC980E711668BD14F (void);
 extern void WeaponScript_Start_m90831044D9746829FE9E3EEBA075B330DFA78191 (void);
 extern void WeaponScript_Awake_mF6F41B1A1F310C9933F5D02F8801E8F372751927 (void);
 extern void WeaponScript_OnEnable_m435444ABE4E47B6E966D795A95AC6EDC7460C63D (void);
@@ -293,7 +316,7 @@ extern void XRPokeFollowAffordanceFill_OnTransformTweenableVariableUpdated_m8B3C
 extern void XRPokeFollowAffordanceFill_OnPokeStrengthChanged_m480B681A9BE7B6C71724392FC3368A029EA4CED6 (void);
 extern void XRPokeFollowAffordanceFill_OnPokeStateDataUpdated_m6233708D9CEEA9A7920B821FDBD306F4D7CBFAE6 (void);
 extern void XRPokeFollowAffordanceFill__ctor_mAED1746F6E90C5676967671BFBB11E3B7C6B1E98 (void);
-static Il2CppMethodPointer s_methodPointers[286] = 
+static Il2CppMethodPointer s_methodPointers[309] = 
 {
 	BulletScript_OnEnable_m7C8439F7758DF979F75BE07BBCA9BFE309DFABA3,
 	BulletScript_OnCollisionEnter_m89FBBDFD6D949CEEF725028DE485FFC6EE244B84,
@@ -419,10 +442,33 @@ static Il2CppMethodPointer s_methodPointers[286] =
 	GunsMenu_PreviousGun_m696007829BFB985202FF01AB4C574D9A55F2CE18,
 	GunsMenu_Update_mDE9D389D03BE22939CFAC346F50051ACD8E3B0BA,
 	GunsMenu__ctor_m142490DEA3C5159665DA96C643DC4453A90E1427,
+	InterfaceScript_Awake_m4EE89601FB7638BE21E3590362B775AA2BDD6AAF,
+	InterfaceScript_AddScore_m62B9C471302C949A283059AD7A9A96AD255F455A,
+	InterfaceScript_SetScore_m365CE35996A8EADDB77A52C19453376E6B021764,
+	InterfaceScript_UpdateScoreUI_mA71816800A59CCA685157F5096CD0B4EF330193D,
+	InterfaceScript__ctor_mDB05EE4666F03F07ED2CDF7C78C3F82535B59356,
 	ScoreCanvaCard_Start_m5653490EDC53EF7E70FA4562F4FAA1BFFB140512,
 	ScoreCanvaCard_Update_m2441FDF1C2B661DFF336C0D8AEFD91ABCA17EC09,
 	ScoreCanvaCard_AddScore_m46512B793B221E9781AB790C49F7AAB1872FA6D8,
 	ScoreCanvaCard__ctor_m6A36BBBD2945041EA43A65B2C5B2B1437D3484AB,
+	StartGameScript_add_OnScoreChanged_mFDDBDEC617583E5A34D3D9CFD354E1F488025FCE,
+	StartGameScript_remove_OnScoreChanged_m7E992CE153BC489B15044BD1E6FE7FBB83AD4E1C,
+	StartGameScript_StartGame_mB23EC7BACFF9974A7F3292ABFE256EACCEB221C6,
+	StartGameScript_PlayMusic_m8527817862451130B1C1AF104C46D9BC46356215,
+	StartGameScript_Update_mB7A8E9D2FBA75D2A19F5CA03226F68C3D2677B83,
+	StartGameScript__ctor_m1B5763567738892E49446C7720C1DFBB22B09E03,
+	TargetSpawner_Start_mB5BDF98FC368763F3A9970D95B427372CA162452,
+	TargetSpawner_SpawnTargetsRoutine_m93DDACD3AEDC22D6A52BA6822FD484AAB4CEDA17,
+	TargetSpawner_SpawnTarget_m3DB6AC87B0CF31E808FC6E5C8B91E0EC3BBC0343,
+	TargetSpawner_Update_m35B0381990A4C9394570D17460EEA4A814B97702,
+	TargetSpawner__ctor_mA9EC027F050526ABFE499761DB21BBC6EA25A46B,
+	MovingTargetData__ctor_mD1DE480439AEB068F7968B6453C5C99F9D537388,
+	U3CSpawnTargetsRoutineU3Ed__17__ctor_mE0A1550DB8EC63536F45F4BB8B8D2E8788A4E285,
+	U3CSpawnTargetsRoutineU3Ed__17_System_IDisposable_Dispose_mBF47AD3BCCA6ADFA31013161CBDCB0C83130379F,
+	U3CSpawnTargetsRoutineU3Ed__17_MoveNext_mA375223EBF8D8EF0047F2B9A0613793B4D40D960,
+	U3CSpawnTargetsRoutineU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE0B13E8A10E585CFB55C7293B40F300B5A301D44,
+	U3CSpawnTargetsRoutineU3Ed__17_System_Collections_IEnumerator_Reset_mEAAC55F28F0DFFB08FD6FD22EF43D364E213AC25,
+	U3CSpawnTargetsRoutineU3Ed__17_System_Collections_IEnumerator_get_Current_m3677D0074D6668AC0E17FEDAC980E711668BD14F,
 	WeaponScript_Start_m90831044D9746829FE9E3EEBA075B330DFA78191,
 	WeaponScript_Awake_mF6F41B1A1F310C9933F5D02F8801E8F372751927,
 	WeaponScript_OnEnable_m435444ABE4E47B6E966D795A95AC6EDC7460C63D,
@@ -588,12 +634,12 @@ extern void TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F03
 extern void TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000102, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
-	{ 0x06000103, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
-	{ 0x06000104, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
-	{ 0x06000105, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
+	{ 0x06000119, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
+	{ 0x0600011A, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
+	{ 0x0600011B, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
+	{ 0x0600011C, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[286] = 
+static const int32_t s_InvokerIndices[309] = 
 {
 	15485,
 	11758,
@@ -613,7 +659,7 @@ static const int32_t s_InvokerIndices[286] =
 	15485,
 	15485,
 	15485,
-	26570,
+	26573,
 	15485,
 	15485,
 	15485,
@@ -683,7 +729,7 @@ static const int32_t s_InvokerIndices[286] =
 	15485,
 	15288,
 	15485,
-	26570,
+	26573,
 	11693,
 	15485,
 	15092,
@@ -699,10 +745,10 @@ static const int32_t s_InvokerIndices[286] =
 	15288,
 	15485,
 	15288,
-	21610,
-	22526,
-	25299,
-	26428,
+	21613,
+	22529,
+	25302,
+	26431,
 	5965,
 	11758,
 	11693,
@@ -720,19 +766,42 @@ static const int32_t s_InvokerIndices[286] =
 	15485,
 	15485,
 	15485,
-	15485,
+	11693,
 	11693,
 	15485,
 	15485,
 	15485,
 	15485,
+	11693,
+	15485,
+	11758,
+	11758,
+	15485,
+	15485,
+	15485,
+	15485,
+	15485,
+	15288,
+	15485,
+	15485,
+	15485,
+	15485,
+	11693,
+	15485,
+	15092,
+	15288,
+	15485,
+	15288,
+	15485,
+	15485,
+	15485,
 	15485,
 	15485,
 	11758,
 	11758,
 	15485,
 	15485,
-	26610,
+	26613,
 	15485,
 	15485,
 	15485,
@@ -746,7 +815,7 @@ static const int32_t s_InvokerIndices[286] =
 	15485,
 	15485,
 	15485,
-	17002,
+	17003,
 	15485,
 	15485,
 	15485,
@@ -787,7 +856,7 @@ static const int32_t s_InvokerIndices[286] =
 	15485,
 	15485,
 	15485,
-	24552,
+	24555,
 	15485,
 	15485,
 	11758,
@@ -848,7 +917,7 @@ static const int32_t s_InvokerIndices[286] =
 	11849,
 	15387,
 	15485,
-	19413,
+	19415,
 	15485,
 	15485,
 	15485,
@@ -886,7 +955,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	286,
+	309,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

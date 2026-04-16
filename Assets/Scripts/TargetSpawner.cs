@@ -6,7 +6,9 @@ public class TargetSpawner : MonoBehaviour
 {
     [Header("Configuracion General")]
     public GameObject targetPrefab;
+    public Transform spawnPoint;
     public float spawnInterval = 1.5f;
+    public float minHeight = 0f;
     public float minDistance = 2f;
     public float maxDistance = 5f;
     public float targetRadius = 0.5f;
@@ -23,7 +25,6 @@ public class TargetSpawner : MonoBehaviour
     public float maxSpeed = 5f;
     public float minSwayDistance = 0.1f;
     public float maxSwayDistance = 0.4f;
-
     private Camera playerCamera;
     private List<MovingTargetData> activeMovingTargets = new List<MovingTargetData>();
 
@@ -62,11 +63,12 @@ public class TargetSpawner : MonoBehaviour
 
         for (int i = 0; i < maxSpawnAttempts; i++)
         {
-            float randomX = Random.Range(0.2f, 0.8f);
-            float randomY = Random.Range(0.2f, 0.8f);
-            float randomZ = Random.Range(minDistance, maxDistance);
-            spawnPosition = playerCamera.ViewportToWorldPoint(new Vector3(randomX, randomY, randomZ));
+            Vector3 randomDirection = Random.onUnitSphere;
+            float randomDistance = Random.Range(minDistance, maxDistance);
 
+            spawnPosition = spawnPoint.position + randomDirection * randomDistance;
+            spawnPosition.y = Mathf.Max(spawnPosition.y, minHeight);
+            
             if (!Physics.CheckSphere(spawnPosition, targetRadius))
             {
                 positionFound = true;
@@ -93,6 +95,14 @@ public class TargetSpawner : MonoBehaviour
             newData.creationTime = Time.time;
 
             activeMovingTargets.Add(newData);
+        }
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
         }
     }
 
