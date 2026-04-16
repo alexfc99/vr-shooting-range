@@ -38012,7 +38012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_UnsafeStore_TisIl2CppFullySharedGe
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisInstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B_m3A488A1090C9D5AB0BFA10A0440C12B78DC08229_gshared (NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* ___0_array, InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38021,13 +38021,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisInstanceHan
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* L_0 = ___0_array;
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C L_1 = (*(NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B_mF494EB498E461DF0E5B45953ACAEFCCF14C261B1(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38052,7 +38052,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38060,21 +38060,21 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = sizeof(InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B);
 		InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B* L_12 = ___1_value;
 		InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B L_13 = (*(InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B*)L_12);
 		*(InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B*)((InstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))) = L_13;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38083,11 +38083,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m42C776F63A2433E66EFD05FB1C9AB0CD38C4FF42_gshared (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___0_array, int32_t* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38096,13 +38096,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisInt32_t680F
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = ___0_array;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_1 = (*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mD2D9DC546B80A05000B107C8E09FAA4BED3B2144(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (int32_t*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38127,7 +38127,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38135,21 +38135,21 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		int32_t* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = sizeof(int32_t);
 		int32_t* L_12 = ___1_value;
 		int32_t L_13 = (*(int32_t*)L_12);
 		*(int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))) = L_13;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38158,11 +38158,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m72A7C554A4C751E902F08D4CB99FD9D06CAAF9E2_gshared (NativeArray_1_t25F6CEC65DB0532CB91E2B2890FF6C2D52A210A3* ___0_array, int64_t* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38171,13 +38171,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisInt64_t092C
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_t25F6CEC65DB0532CB91E2B2890FF6C2D52A210A3* L_0 = ___0_array;
 		NativeArray_1_t25F6CEC65DB0532CB91E2B2890FF6C2D52A210A3 L_1 = (*(NativeArray_1_t25F6CEC65DB0532CB91E2B2890FF6C2D52A210A3*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_mA00A801E46239C4AF570A95998D1304800BB4493(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (int64_t*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38202,7 +38202,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38210,21 +38210,21 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		int64_t* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = sizeof(int64_t);
 		int64_t* L_12 = ___1_value;
 		int64_t L_13 = (*(int64_t*)L_12);
 		*(int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))) = L_13;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38233,11 +38233,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisSharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692_m5648A9E7718D7979BA56FD63EC17BD2FDECBFAE7_gshared (NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* ___0_array, SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38246,13 +38246,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisSharedInsta
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* L_0 = ___0_array;
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565 L_1 = (*(NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisSharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692_mBB4D3FE238E42F81D4D9DABAA29B7834C2F528C8(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38277,7 +38277,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38285,21 +38285,21 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = sizeof(SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692);
 		SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692* L_12 = ___1_value;
 		SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692 L_13 = (*(SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692*)L_12);
 		*(SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692*)((SharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))) = L_13;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38308,11 +38308,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisSmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106_m88F9F54A27CC22225E5574CA34E56C2211C36B62_gshared (NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* ___0_array, SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38321,13 +38321,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisSmallIntege
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* L_0 = ___0_array;
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6 L_1 = (*(NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisSmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106_m85646D40314396B5B96A1A234074D8F3B6D91D4F(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38352,7 +38352,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38360,21 +38360,21 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = sizeof(SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106);
 		SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106* L_12 = ___1_value;
 		SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106 L_13 = (*(SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106*)L_12);
 		*(SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106*)((SmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))) = L_13;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38383,11 +38383,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m7A4AC0DB8F27C5F75A643FC2A86415CC51578FD9_gshared (NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* ___0_array, uint32_t* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38396,13 +38396,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisUInt32_t183
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* L_0 = ___0_array;
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184 L_1 = (*(NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184*)L_0);
 		void* L_2;
 		L_2 = NativeArrayUnsafeUtility_GetUnsafePtr_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mCF93808CC5FB2F98EFE996D2E958CDB16E0E429D(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (uint32_t*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38427,7 +38427,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38435,21 +38435,21 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		uint32_t* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = sizeof(uint32_t);
 		uint32_t* L_12 = ___1_value;
 		uint32_t L_13 = (*(uint32_t*)L_12);
 		*(uint32_t*)((uint32_t*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))) = L_13;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38458,11 +38458,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37904
+// Method Definition Index: 37866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisIl2CppFullySharedGenericStruct_m33F843BF3B5BC7333D99949E2CFF2F64B6AAF7F9_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* ___0_array, Il2CppFullySharedGenericStruct* ___1_value, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -38473,13 +38473,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_FillArray_TisIl2CppFully
 	int32_t V_2 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:81>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_0 = ___0_array;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_1 = (*(NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)L_0);
 		void* L_2;
 		L_2 = ((  void* (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_1, il2cpp_rgctx_method(method->rgctx_data, 2));
 		V_0 = (Il2CppFullySharedGenericStruct*)L_2;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:83>
 		int32_t L_3 = ___3_length;
 		if ((((int32_t)L_3) == ((int32_t)(-1))))
 		{
@@ -38504,7 +38504,7 @@ IL_0015:
 IL_001b:
 	{
 		V_1 = G_B3_0;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_8 = ___2_startIndex;
 		V_2 = L_8;
 		goto IL_003a;
@@ -38512,7 +38512,7 @@ IL_001b:
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:86>
 		Il2CppFullySharedGenericStruct* L_9 = V_0;
 		int32_t L_10 = V_2;
 		uint32_t L_11 = SizeOf_T_tCB137871CE2128B87A346D2A872A7CA8CDC18905;
@@ -38520,14 +38520,14 @@ IL_0020:
 		il2cpp_codegen_memcpy(L_13, L_12, SizeOf_T_tCB137871CE2128B87A346D2A872A7CA8CDC18905);
 		il2cpp_codegen_memcpy((Il2CppFullySharedGenericStruct*)((Il2CppFullySharedGenericStruct*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))), L_13, SizeOf_T_tCB137871CE2128B87A346D2A872A7CA8CDC18905);
 		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->rgctx_data, 5), (void**)(Il2CppFullySharedGenericStruct*)((Il2CppFullySharedGenericStruct*)il2cpp_codegen_add((intptr_t)L_9, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_10), (int32_t)L_11)))), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_14 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:85>
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -38536,21 +38536,21 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisAABB_tE57BAC64D9F8465BBFCC4A9C66AF4E884166982A_m8A2F9A1D8DFBB33E7FE51939F514F6E6C42BF43E_gshared (NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m60EF4524A8A993CF2DDB72396F61026DFBF8EF48((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mFA2C988A32E3062E45AEA1C589491A06E2CE6838_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38560,7 +38560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisAABB_tE57
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A* L_3 = ___0_array;
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A L_4 = (*(NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A*)L_3);
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A L_5 = V_0;
@@ -38568,32 +38568,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisAABB_tE57
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m843B198DD4176A81EF613DF716C850826B3FC2E3(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A* L_8 = ___0_array;
 		NativeArray_1_Dispose_m880749AD14CF18198530F4A5F2751CE5FABB371C(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A* L_9 = ___0_array;
 		NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A L_10 = V_0;
 		*(NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m03C40A6C0546B3EF39F41B4F8A01F8069907134A_gshared (NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m262609CCB123CE8BB59524B83D08D2CFA8C33A86((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mA83365D6CA218351683FBE5BF4FDF01F36585FD1_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38603,7 +38603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoolean_t
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* L_3 = ___0_array;
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB L_4 = (*(NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB*)L_3);
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB L_5 = V_0;
@@ -38611,32 +38611,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoolean_t
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m91B50CB5915EEBDE0116BF70F3FCA6B8EF8F6D4B(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* L_8 = ___0_array;
 		NativeArray_1_Dispose_mF16E4FD33476D6947F979B1E1D9F901CE0A04344(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* L_9 = ___0_array;
 		NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB L_10 = V_0;
 		*(NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoundingSphere_t2DDB3D1711A6920C0ECA9217D3E4E14AFF03C010_m97ECB17020454F538CF86C6311BB0532F9D3AC07_gshared (NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mDE0D502FF2DC1509B0874538E7CC3DC8C8108053((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m4157169C986845768922371B9F2B1BB9AB97DE36_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38646,7 +38646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoundingS
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6* L_3 = ___0_array;
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6 L_4 = (*(NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6*)L_3);
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6 L_5 = V_0;
@@ -38654,27 +38654,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoundingS
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m58B838187F84A01753D43D409EEDD79EC8C3087E(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6* L_8 = ___0_array;
 		NativeArray_1_Dispose_m4D6B12321C5FF072AD5CD660E179FC761A52C22E(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6* L_9 = ___0_array;
 		NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6 L_10 = V_0;
 		*(NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37903
+// Method Definition Index: 37865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoundingSphere_t2DDB3D1711A6920C0ECA9217D3E4E14AFF03C010_mF1480A26EB90FA28A36BD0EA5CED744A82C9E338_gshared (BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47** ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:58>
 		BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47** L_0 = ___0_array;
 		BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47* L_1 = *((BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47**)L_0);
 		if (L_1)
@@ -38683,37 +38683,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisBoundingS
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:60>
 		BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47** L_2 = ___0_array;
 		int32_t L_3 = ___1_capacity;
 		BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47* L_4 = (BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47*)(BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47*)SZArrayNew(il2cpp_rgctx_data(method->rgctx_data, 1), (uint32_t)L_3);
 		*((RuntimeObject**)L_2) = (RuntimeObject*)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:61>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:64>
 		BoundingSphereU5BU5D_tD7485B1D5D5A0EE26537B093423FC3AC149BEA47** L_5 = ___0_array;
 		int32_t L_6 = ___1_capacity;
 		Array_Resize_TisBoundingSphere_t2DDB3D1711A6920C0ECA9217D3E4E14AFF03C010_m0207591EADCDD829F230A9C0CD0EF752A340F614(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisCPUSharedInstanceFlags_tA2264804A98F5A694C7AFDF536E9612C8C9E5455_m32160E4BACCBF9165FA9F2F603E3E38E0ABAE1D4_gshared (NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mD9235EDFC26B73C2B48EC03285EFD67FAC5DBB79((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mA7C08BDFAC7EAFABCA6880B9E4B4637353F51889_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38723,7 +38723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisCPUShared
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3* L_3 = ___0_array;
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3 L_4 = (*(NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3*)L_3);
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3 L_5 = V_0;
@@ -38731,32 +38731,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisCPUShared
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mE8DE6AB7E73F8EE66752C05AFDDF1FC09FB1398C(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3* L_8 = ___0_array;
 		NativeArray_1_Dispose_m9F9177DF276400EA5B03C3A81C2FDFF7D5E4F8B2(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3* L_9 = ___0_array;
 		NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3 L_10 = V_0;
 		*(NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisDecalEntity_t8CAF09C65939503449C4138ADCDC4907196293FD_m48C0117B395C3815A44062256EA8529C46D36025_gshared (NativeArray_1_t83F02282C33BAD818D67110F7760483208880311* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t83F02282C33BAD818D67110F7760483208880311 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m886C5B09D26672670EE5150C290EB32137254950((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m62AD8AB1F24638915EE618C2E899C038722CCD54_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38766,7 +38766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisDecalEnti
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311* L_3 = ___0_array;
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311 L_4 = (*(NativeArray_1_t83F02282C33BAD818D67110F7760483208880311*)L_3);
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311 L_5 = V_0;
@@ -38774,32 +38774,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisDecalEnti
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mC13E50F3FD36BE82A1CA5082228D567FD76FD49F(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311* L_8 = ___0_array;
 		NativeArray_1_Dispose_m0032B76C31C760137D0DB03AFF0ADF68197AD3C3(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311* L_9 = ___0_array;
 		NativeArray_1_t83F02282C33BAD818D67110F7760483208880311 L_10 = V_0;
 		*(NativeArray_1_t83F02282C33BAD818D67110F7760483208880311*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisDecalSubDrawCall_t68CDD2E663F805776DE0281AB4FAEDC8B8D9EC49_m53427FE0458D6B20A22026DD0D267FBEEDE41E78_gshared (NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m4ED85B07ED296AAC29CB23BFAFC2C6C241C48733((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m93E27047072B61D500BF2BB0C1A998D653EA2CC7_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38809,7 +38809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisDecalSubD
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_3 = ___0_array;
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2 L_4 = (*(NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2*)L_3);
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2 L_5 = V_0;
@@ -38817,32 +38817,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisDecalSubD
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m8FEDBF6FE3E32ECE3B4DD546EE5EB16ED607D61C(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_8 = ___0_array;
 		NativeArray_1_Dispose_mACC8FD312FD1CB4F9106BB30A2FED079996CBCD4(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* L_9 = ___0_array;
 		NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2 L_10 = V_0;
 		*(NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisGPUDrivenMeshLodInfo_tC906887AE63DADE17AC5F423639E74F740CB9061_m3FF071498A268E906EC98738965834DA7A56A9FF_gshared (NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mB3862D79AC57E467A0E3770AF273BCF4ACB65EBA((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mCDCAF9BEE40B4461135120F6F2013FA03B67696B_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38852,7 +38852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisGPUDriven
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5* L_3 = ___0_array;
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5 L_4 = (*(NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5*)L_3);
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5 L_5 = V_0;
@@ -38860,32 +38860,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisGPUDriven
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mF4E2857F549E4822C6D12E5E1F951C263E10CE36(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5* L_8 = ___0_array;
 		NativeArray_1_Dispose_m979032BA7A9CF85CC4597B9F0307D9B5249D368D(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5* L_9 = ___0_array;
 		NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5 L_10 = V_0;
 		*(NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisGPUDrivenRendererMeshLodData_tFC0A33207178DDD3BD7B630CFB2B933D56EC073F_m0B4F7AF3B690BEE4954E8C4DF73B55638DEE06E7_gshared (NativeArray_1_tF69142813024978B4681527F3134D33141A11179* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tF69142813024978B4681527F3134D33141A11179 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mE785155B9A70E25000B3340F54B07B9040A10259((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mD7E18B3EBB7160B415D18D2C8716B4DF98FAC77D_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38895,7 +38895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisGPUDriven
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179* L_3 = ___0_array;
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179 L_4 = (*(NativeArray_1_tF69142813024978B4681527F3134D33141A11179*)L_3);
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179 L_5 = V_0;
@@ -38903,32 +38903,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisGPUDriven
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m9B2C4BE4BB6AF32D3A1EB2742D3BD9310A8B1BA9(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179* L_8 = ___0_array;
 		NativeArray_1_Dispose_m57A37BBB74A1AB7C7BF09AE05F761B815B11FE6C(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179* L_9 = ___0_array;
 		NativeArray_1_tF69142813024978B4681527F3134D33141A11179 L_10 = V_0;
 		*(NativeArray_1_tF69142813024978B4681527F3134D33141A11179*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInstanceHandle_tE8D892B001AFFDB8FA53EB19F2B356436AC36C3B_m52ACD4626383AB9B2B414077A5A72FC7164BF8D8_gshared (NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m2B08A55873756E21BCB6D1C2CD1D3ED18D00BCA2((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m03A161D67C6E9FA969E8D93B454B5B724A4C1D73_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38938,7 +38938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInstanceH
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* L_3 = ___0_array;
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C L_4 = (*(NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C*)L_3);
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C L_5 = V_0;
@@ -38946,32 +38946,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInstanceH
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m1AECE941F4E3DE42542455E85B295D9BFAD8CC52(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* L_8 = ___0_array;
 		NativeArray_1_Dispose_m2C67EBF40272FAE50ACAE7825D1C71C673CE32C7(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* L_9 = ___0_array;
 		NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C L_10 = V_0;
 		*(NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mCC1C29FFBD5857EE8A9D2DD4EECE68A25390D347_gshared (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -38981,7 +38981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32_t68
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_3 = ___0_array;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_4 = (*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_3);
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_5 = V_0;
@@ -38989,27 +38989,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32_t68
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mE732305914FBFBE640845378BDD9B31684A47131(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_8 = ___0_array;
 		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_9 = ___0_array;
 		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_10 = V_0;
 		*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37903
+// Method Definition Index: 37865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mFFAD26B2501568E203F55AC9971F07ECF103B4BB_gshared (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:58>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** L_0 = ___0_array;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = *((Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C**)L_0);
 		if (L_1)
@@ -39018,37 +39018,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32_t68
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:60>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** L_2 = ___0_array;
 		int32_t L_3 = ___1_capacity;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(il2cpp_rgctx_data(method->rgctx_data, 1), (uint32_t)L_3);
 		*((RuntimeObject**)L_2) = (RuntimeObject*)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:61>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:64>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** L_5 = ___0_array;
 		int32_t L_6 = ___1_capacity;
 		Array_Resize_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6BAA7BD6F22421B894347B1476C37052FAC6C916(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m78934B426730B8016F2DF8A1BD018A06F8574528_gshared (NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m0D4D6107C1C882F6D813E0CC53744262582D6110((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m29C96FF2F08A28E0BBAD23B03FA0956C86DF7243_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39058,7 +39058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32Enum
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75* L_3 = ___0_array;
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75 L_4 = (*(NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75*)L_3);
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75 L_5 = V_0;
@@ -39066,27 +39066,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisInt32Enum
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mEE707B076AF6C9A8090B11AD44210493DB4E4404(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75* L_8 = ___0_array;
 		NativeArray_1_Dispose_mE208CD8E9CF8772A67BC880E49DDCD173A7E15EE(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75* L_9 = ___0_array;
 		NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75 L_10 = V_0;
 		*(NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37903
+// Method Definition Index: 37865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisRuntimeObject_m6BFC2474086385E6C47BD8792E0405393BEF2B62_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918** ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:58>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918** L_0 = ___0_array;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = *((ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918**)L_0);
 		if (L_1)
@@ -39095,37 +39095,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisRuntimeOb
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:60>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918** L_2 = ___0_array;
 		int32_t L_3 = ___1_capacity;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(il2cpp_rgctx_data(method->rgctx_data, 1), (uint32_t)L_3);
 		*((RuntimeObject**)L_2) = (RuntimeObject*)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:61>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:64>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918** L_5 = ___0_array;
 		int32_t L_6 = ___1_capacity;
 		Array_Resize_TisRuntimeObject_mE8D92C287251BAF8256D85E5829F749359EC334E(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSharedInstanceHandle_tC3415E5C355DF902D26BACE70048BB60426A3692_m2D6841BFE4922A1788066204FCBD76C1DB4DC08D_gshared (NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mB0AD337C4EA82C18D214D63D1B478193CBCA5D27((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m52BE3348C28654CF7C831DC553DF5C460368D4A0_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39135,7 +39135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSharedIns
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* L_3 = ___0_array;
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565 L_4 = (*(NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565*)L_3);
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565 L_5 = V_0;
@@ -39143,32 +39143,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSharedIns
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mC860D7F2626BFD8ED76AD6F826170F36FCDFB131(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* L_8 = ___0_array;
 		NativeArray_1_Dispose_m89D1A65049A66135A9208BAA6641B78662D65A9D(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* L_9 = ___0_array;
 		NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565 L_10 = V_0;
 		*(NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m3093DA203EC655A89B97A720E0E41B9D1F6BF89D_gshared (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m4D540A81E1062EEC2C4B0697A34A4EEFB9BC9004((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m318928FA479173AFA6DEB47FF3B9D54868151D87_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39178,7 +39178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSingle_t4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* L_3 = ___0_array;
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_4 = (*(NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF*)L_3);
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_5 = V_0;
@@ -39186,32 +39186,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSingle_t4
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m8D7549565B44CEC4BC9DF00EB3C9AADFB09A97FF(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* L_8 = ___0_array;
 		NativeArray_1_Dispose_mC07280A768D065A052D995F3E6175A27CD62E1F6(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* L_9 = ___0_array;
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_10 = V_0;
 		*(NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSmallIntegerArray_tDC55C2B2EF90CB455909CEE2EFF59B5C50BBE106_mA4958600BBA45ABB2988315B1527942746AF36AF_gshared (NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m9D8E675A10A0C5E3F8FCB3500DC92CAEDAAA21C5((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m54D9D3A3A7DDFAB62E54DD6CCDB5FA4CEC98CB15_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39221,7 +39221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSmallInte
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* L_3 = ___0_array;
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6 L_4 = (*(NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6*)L_3);
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6 L_5 = V_0;
@@ -39229,32 +39229,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisSmallInte
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mA771A001270DF18CA6290517372DA21247067A11(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* L_8 = ___0_array;
 		NativeArray_1_Dispose_mBBE2A2F1B1AD2FBB97BBDA2EEA1CDD835770189F(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* L_9 = ___0_array;
 		NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6 L_10 = V_0;
 		*(NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_mA7A1947DAC61D89594FD427B8866AF243CBCA65E_gshared (NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m75E60949F4AE81A148CE446B1DC84D8E27C108CD((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m1589AA18BC64ECF5AA79D95DCE5D7887E98B70AA_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39264,7 +39264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisUInt32_t1
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* L_3 = ___0_array;
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184 L_4 = (*(NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184*)L_3);
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184 L_5 = V_0;
@@ -39272,32 +39272,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisUInt32_t1
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mCFCCADA8D49DD5B75D7F209571A30024188340CB(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* L_8 = ___0_array;
 		NativeArray_1_Dispose_m921D007BB17D47849CD74AB7FA825547CB828BBC(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* L_9 = ___0_array;
 		NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184 L_10 = V_0;
 		*(NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_mA7325AB0E73DB3008AF16F6B66B107118806D8D4_gshared (NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mA8531DC1B7696C5771660F84BEFAAD1B126030D1((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mEB87E39B53D707EB3D802BD45DAA8C734FAB6AF2_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39307,7 +39307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisUInt64_t8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B* L_3 = ___0_array;
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B L_4 = (*(NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B*)L_3);
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B L_5 = V_0;
@@ -39315,32 +39315,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisUInt64_t8
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mB66A42A1FDFA5FA3C7AA94E485C1489C6751C668(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B* L_8 = ___0_array;
 		NativeArray_1_Dispose_m5CBF60E97954A416106547EF28316741B674D253(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B* L_9 = ___0_array;
 		NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B L_10 = V_0;
 		*(NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisIl2CppFullySharedGenericStruct_m26A72CB97BA0352D3D33EF93605B2CEC842643EF_gshared (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, int32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_1 = ___0_array;
 		bool L_2;
 		L_2 = ((  bool (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39350,7 +39350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisIl2CppFul
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_3 = ___0_array;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_4 = (*(NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)L_3);
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_5 = V_0;
@@ -39358,27 +39358,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisIl2CppFul
 		int32_t L_7;
 		L_7 = ((  int32_t (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 5)))(L_6, il2cpp_rgctx_method(method->rgctx_data, 5));
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 6)))(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_8 = ___0_array;
 		((  void (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 7)))(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18* L_9 = ___0_array;
 		NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 L_10 = V_0;
 		*(NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37903
+// Method Definition Index: 37865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisIl2CppFullySharedGenericAny_mD67505C99AD7451803DE4E5219C85C92F63ACA1F_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:58>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** L_0 = ___0_array;
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_1 = *((__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC**)L_0);
 		if (L_1)
@@ -39387,37 +39387,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_TisIl2CppFul
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:60>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** L_2 = ___0_array;
 		int32_t L_3 = ___1_capacity;
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* L_4 = (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC*)(__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC*)SZArrayNew(il2cpp_rgctx_data(method->rgctx_data, 1), (uint32_t)L_3);
 		*((RuntimeObject**)L_2) = (RuntimeObject*)L_4;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:61>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:64>
 		__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** L_5 = ___0_array;
 		int32_t L_6 = ___1_capacity;
 		((  void (*) (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC**, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_5, L_6, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m4E50A7CF887E0894D0F694E2A529CD6AA5F064CE_gshared (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mAF9D0A865FBFFE6364C3073A253711B4C109C67A((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m43B1376791D10E86C7C789A5A3E33D5BD7D70918_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39427,7 +39427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat2_t2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_3 = ___0_array;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_4 = (*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_3);
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_5 = V_0;
@@ -39435,32 +39435,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat2_t2
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mE0405FFCD533DD123FC1368F6F04200F016FC53C(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_8 = ___0_array;
 		NativeArray_1_Dispose_mAD3B69E4B23316C46AF8C35D7E1E81206323F16F(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* L_9 = ___0_array;
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_10 = V_0;
 		*(NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E_mB9C7AEADC1241624FC5482255B8B17E912B88EC6_gshared (NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m965B9BE6DD806F31A767FF7CB33BEA509B7C90D7((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mA38B53188E0DF2D3FA767EBE0E8506F6F32A2A5F_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39470,7 +39470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat3_t4
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6* L_3 = ___0_array;
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_4 = (*(NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6*)L_3);
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_5 = V_0;
@@ -39478,32 +39478,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat3_t4
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m3D6CFCA1B7408DF149AE86285B4879C6A2507C83(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6* L_8 = ___0_array;
 		NativeArray_1_Dispose_mE40D457AF008BEE531917D94D3A83296CCF8906C(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6* L_9 = ___0_array;
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_10 = V_0;
 		*(NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat4_t89D9A294E7A79BD81BFBDD18654508532958555E_m0F046BCBBC1480B71939881BAC4C4F00A0B302CA_gshared (NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m259FBF4B761504728B0CF234F1C233905614B2B2((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m72F6D6D52F1B7ACA49278C95200E17EC834816B2_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39513,7 +39513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat4_t8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881* L_3 = ___0_array;
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 L_4 = (*(NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881*)L_3);
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 L_5 = V_0;
@@ -39521,32 +39521,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat4_t8
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_mDA380D1716F6BA0C74177E9B14B1249EBD70633E(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881* L_8 = ___0_array;
 		NativeArray_1_Dispose_mF001C61A295F2BF3561FD60654243ABFF09AF662(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881* L_9 = ___0_array;
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 L_10 = V_0;
 		*(NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat4x4_t7EDD16F7F57DC7F61A6302535F7C19FB97915DF2_m4455C8B60BA08395D0B896AD808F0433ABCCA888_gshared (NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_mAADFCCAE72BDF1E1866AD2B3C6BEBB33D426337C((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_mD18D5BAA0DFBD842389B3723A09296444F3B78F2_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39556,7 +39556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat4x4_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A* L_3 = ___0_array;
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A L_4 = (*(NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A*)L_3);
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A L_5 = V_0;
@@ -39564,32 +39564,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisfloat4x4_
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m53913A280FC2AA36D0DCF6D4A5FC4A060ACE3002(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A* L_8 = ___0_array;
 		NativeArray_1_Dispose_m994685B1A26FB0972542BE1216EBD59B332E880A(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A* L_9 = ___0_array;
 		NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A L_10 = V_0;
 		*(NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 37901
+// Method Definition Index: 37863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisquaternion_tD6BCBECAF088B9EBAE2345EC8534C7A1A4C910D4_mCCC2A04B4AC663EC4E25A7A3EF7E3F73861ADFA1_gshared (NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A* ___0_array, int32_t ___1_capacity, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
 	NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:23>
 		int32_t L_0 = ___1_capacity;
 		NativeArray_1__ctor_m5712CCF0D22C6923EFB0457056458FAE22638970((&V_0), L_0, (int32_t)4, (int32_t)0, il2cpp_rgctx_method(method->rgctx_data, 0));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:24>
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A* L_1 = ___0_array;
 		bool L_2;
 		L_2 = NativeArray_1_get_IsCreated_m1876570F4C88756B2A142D20F82A23A994528847_inline(L_1, il2cpp_rgctx_method(method->rgctx_data, 3));
@@ -39599,7 +39599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisquaternio
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:26>
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A* L_3 = ___0_array;
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A L_4 = (*(NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A*)L_3);
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A L_5 = V_0;
@@ -39607,22 +39607,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayExtensions_ResizeArray_Tisquaternio
 		int32_t L_7;
 		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_6)->___m_Length);
 		NativeArray_1_Copy_m494D7DCED2059B10EBA6958B3B012B9A82FD2C12(L_4, L_5, L_7, il2cpp_rgctx_method(method->rgctx_data, 6));
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:27>
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A* L_8 = ___0_array;
 		NativeArray_1_Dispose_m03F9BA2E0A4EED6DCA8AD4D9EC282F9B56DFE402(L_8, il2cpp_rgctx_method(method->rgctx_data, 7));
 	}
 
 IL_002a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:29>
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A* L_9 = ___0_array;
 		NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A L_10 = V_0;
 		*(NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A*)L_9 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@85f044971695/Runtime/Utilities/ArrayExtensions.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.render-pipelines.core@67f868dbad82/Runtime/Utilities/ArrayExtensions.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisKeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC_m885486ED06E8532B056692449C806F313AED6FB0_gshared (KeyValuePair_2U5BU5D_tF8154B2302178CCE00D745DBF55F703880469DFC** ___0_array, KeyValuePair_2_tC24A74EF64A292F5C6BA77D0B04CD6620D2DE3AC ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39675,7 +39675,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisInputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5_m12810AF1B6E9365D28CA2BC63AB33C01A89745ED_gshared (InputBindingU5BU5D_t7E47E87B9CAE12B6F6A0659008B425C58D84BB57** ___0_array, InputBinding_t0D75BD1538CF81D29450D568D5C938E111633EC5 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39728,7 +39728,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisInputControlScheme_tB60FB32F414727140B32E1A0447679DC7ABC8434_mEE562A52D13EFE1A51A24BA9FEA35B34F21FF6DB_gshared (InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86** ___0_array, InputControlScheme_tB60FB32F414727140B32E1A0447679DC7ABC8434 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39781,7 +39781,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m28BB0D48547AE7FA146E50EEFC61673CA9694DBD_gshared (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C** ___0_array, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39834,7 +39834,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisInternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_m3879DE59CD79E5AD3776AB6E8840C81A14073B46_gshared (InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5** ___0_array, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39887,7 +39887,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisRuntimeObject_mD816F80434FA8521E5E4299018AD7E6A56D0DAB5_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918** ___0_array, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39940,7 +39940,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_mA5858F11A337989656D8E979F1262C06642475A4_gshared (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA** ___0_array, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -39993,7 +39993,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisIl2CppFullySharedGenericAny_m74071BDA5A66F0EAF5D19635A126FC30D8D33E0A_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** ___0_array, Il2CppFullySharedGenericAny ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -40051,7 +40051,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34241
+// Method Definition Index: 34203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisIl2CppFullySharedGenericAny_m045AB997172138AC6A7D3C5BC33D76C7A0E602BB_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC** ___0_array, RuntimeObject* ___1_values, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -40196,7 +40196,7 @@ IL_0058:
 		return L_26;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisDeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056_mE100EC8CB72CA39DC9713CE06C23649C5B25B670_gshared (DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE** ___0_array, DeviceRequirement_t80E71C44DF1923C15D3AA025242B7348EBF8B056 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -40249,7 +40249,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisDeviceInfo_tAB83FF3BB4996BA68DFDF5D6255C1FEBB452AE52_m12D0540A13D944AB6449C772B158A7FF8E39A538_gshared (DeviceInfoU5BU5D_t83A513EC4EB7BD3AA21A9352117520BC63C34E1A** ___0_array, DeviceInfo_tAB83FF3BB4996BA68DFDF5D6255C1FEBB452AE52 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -40302,7 +40302,7 @@ IL_0017:
 		return L_15;
 	}
 }
-// Method Definition Index: 34240
+// Method Definition Index: 34202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_Append_TisRemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE_m8557681588BE02C188A705DB06B4FBAC899A8CDB_gshared (RemoteInputDeviceU5BU5D_tB3C8B8C0AAE6347DB4E4D58D94254291C1FDD7F5** ___0_array, RemoteInputDevice_tF7E8C5EB795DA20F3EABAA259FE5A118C976C5AE ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -42092,7 +42092,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ArraySortHelper_2_t4AF8C900C0EE82
 		return L_0;
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mFA2C988A32E3062E45AEA1C589491A06E2CE6838_gshared_inline (NativeArray_1_tEA1CDFF3990541CCE5DB2228D58782D33425EB0A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42100,7 +42100,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mA83365D6CA218351683FBE5BF4FDF01F36585FD1_gshared_inline (NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42108,7 +42108,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m4157169C986845768922371B9F2B1BB9AB97DE36_gshared_inline (NativeArray_1_t3D8121943984EEED49DC98DED560DCC6638111B6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42116,7 +42116,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mA7C08BDFAC7EAFABCA6880B9E4B4637353F51889_gshared_inline (NativeArray_1_t77B64176C0572D89FD510B6E3730C55F58D0F4E3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42124,7 +42124,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m62AD8AB1F24638915EE618C2E899C038722CCD54_gshared_inline (NativeArray_1_t83F02282C33BAD818D67110F7760483208880311* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42132,7 +42132,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m93E27047072B61D500BF2BB0C1A998D653EA2CC7_gshared_inline (NativeArray_1_t197AED29D4CF7A6BC8C6C69B7BABD82BDC8475E2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42140,7 +42140,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mCDCAF9BEE40B4461135120F6F2013FA03B67696B_gshared_inline (NativeArray_1_tCD10000F9685A78765B6A805B2BA723C17C74ED5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42148,7 +42148,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mD7E18B3EBB7160B415D18D2C8716B4DF98FAC77D_gshared_inline (NativeArray_1_tF69142813024978B4681527F3134D33141A11179* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42156,7 +42156,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m03A161D67C6E9FA969E8D93B454B5B724A4C1D73_gshared_inline (NativeArray_1_t8E042B4249B3126F27EE49887D2507798DC25F2C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42164,7 +42164,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_gshared_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42172,7 +42172,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m29C96FF2F08A28E0BBAD23B03FA0956C86DF7243_gshared_inline (NativeArray_1_tE0DCAF7ED58915BC160F767E310F0F0A55B6BC75* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42180,7 +42180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m52BE3348C28654CF7C831DC553DF5C460368D4A0_gshared_inline (NativeArray_1_tD50C1560C0B57B735333075DF206AB11B0E18565* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42188,7 +42188,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m318928FA479173AFA6DEB47FF3B9D54868151D87_gshared_inline (NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42196,7 +42196,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m54D9D3A3A7DDFAB62E54DD6CCDB5FA4CEC98CB15_gshared_inline (NativeArray_1_tAE8FF949BDE5E9A4E71121CC92C0E3D518D40FA6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42204,7 +42204,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m1589AA18BC64ECF5AA79D95DCE5D7887E98B70AA_gshared_inline (NativeArray_1_t453E3DEA4CC9F1056F24E417C3308C35174BC184* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42212,7 +42212,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mEB87E39B53D707EB3D802BD45DAA8C734FAB6AF2_gshared_inline (NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42220,7 +42220,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m43B1376791D10E86C7C789A5A3E33D5BD7D70918_gshared_inline (NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42228,7 +42228,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mA38B53188E0DF2D3FA767EBE0E8506F6F32A2A5F_gshared_inline (NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42236,7 +42236,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m72F6D6D52F1B7ACA49278C95200E17EC834816B2_gshared_inline (NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42244,7 +42244,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mD18D5BAA0DFBD842389B3723A09296444F3B78F2_gshared_inline (NativeArray_1_t63326FF687E26631308829A9CDB0C51D523D4E9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -42252,7 +42252,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 43364
+// Method Definition Index: 43326
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m1876570F4C88756B2A142D20F82A23A994528847_gshared_inline (NativeArray_1_tE645174F30913B665DE45D85525F90B1F64E054A* __this, const RuntimeMethod* method) 
 {
 	{

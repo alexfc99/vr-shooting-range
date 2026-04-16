@@ -24947,7 +24947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LowLevelList_1__cctor_m663DD9A631105882B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 20492
+// Method Definition Index: 20454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectStore_1__ctor_m130A645163230A91D96EEF722245635303F3328C_gshared (ManagedObjectStore_1_tB6B1AAC350E134C60B467801BCA08CB64AB8506E* __this, int32_t ___0_chunkSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24981,7 +24981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectStore_1__ctor_m130A64516323
 		return;
 	}
 }
-// Method Definition Index: 20493
+// Method Definition Index: 20455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ManagedObjectStore_1_GetValue_m813C05E1F7A237277C73BFFD615702D0AC48335E_gshared (ManagedObjectStore_1_tB6B1AAC350E134C60B467801BCA08CB64AB8506E* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25034,7 +25034,7 @@ IL_003e:
 		return L_13;
 	}
 }
-// Method Definition Index: 20494
+// Method Definition Index: 20456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ManagedObjectStore_1_UpdateValue_mA732C83EF0A8A580F6628799B1916598C4DC27EB_gshared (ManagedObjectStore_1_tB6B1AAC350E134C60B467801BCA08CB64AB8506E* __this, int32_t* ___0_index, GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

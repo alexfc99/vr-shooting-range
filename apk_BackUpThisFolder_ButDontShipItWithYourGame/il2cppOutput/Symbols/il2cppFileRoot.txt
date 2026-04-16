@@ -1,1 +1,1 @@
-/home/isamarcom/vr-shooting-range/Library/Bee/artifacts/Android/il2cppOutput/cpp
+C:\Users\isaac\vr-shooting-range\Library\Bee\artifacts\Android\il2cppOutput\cpp

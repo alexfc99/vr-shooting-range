@@ -168,8 +168,6 @@ extern void ReceiverSphereCuller_UseReceiverPlanes_mEA2EE8FE32563F3FBE40D6AADA97
 extern void ReceiverSphereCuller_Create_m63514E053CF0DD1CD37702E56C84F4F0408A8B00 (void);
 extern void ReceiverSphereCuller_DistanceUntilCylinderFullyCrossesPlane_m1E5B038B031E5090A38EE0FF6EFC405E4BDD63E1 (void);
 extern void ReceiverSphereCuller_ComputeSplitVisibilityMask_m1188332DCE2CBF80B1A431AFB1BD49955898936F (void);
-extern void GPUResidentBatcher_ProcessTrees_mA20D5412045E8AE5E485DE8F50B350F0A88538B7 (void);
-extern void GPUResidentBatcher_UpdateSpeedTreeWindAndUploadWindParamsToGPU_m1E26807F0F67557341970AC983776178A0E90490 (void);
 extern void GPUResidentBatcher_get_batchersContext_m832BD0381846BE2E11D425CE1319953A411D64CE (void);
 extern void GPUResidentBatcher_get_occlusionCullingCommon_mCC135850F6B339139CBA5E60715E4B059195CBC7 (void);
 extern void GPUResidentBatcher_get_instanceCullingBatcher_m9E7BF9BA5E63072AB043C86836AC4C036AD5D465 (void);
@@ -193,10 +191,8 @@ extern void GPUResidentBatcher_OnSetupAmbientProbe_mDCAD4C9AE21158471F846321EA2A
 extern void GPUResidentBatcher_UpdateRendererInstancesAndBatches_m7CC59149342BCCB17DE20FCD2BF0294D613B48B9 (void);
 extern void GPUResidentBatcher_UpdateRendererBatches_m7FDCEBC6D9743BA42ED99E545EBBF438702B56DC (void);
 extern void GPUResidentBatcher_OnFinishedCulling_m3894D01381A5290564E27DC8315623AD4B21975D (void);
-extern void GPUResidentDrawer_IsProjectSupported_m8070103F51F3975E8D573377D445553710EBA457 (void);
-extern void GPUResidentDrawer_IsProjectSupported_m4F5CDE5F81A0BE7CF42E37F1545E85A8C5A07DE3 (void);
-extern void GPUResidentDrawer_IsGPUResidentDrawerSupportedBySRP_m24CCB3D5623CD94D8DA06D20CE59806BC9D35922 (void);
-extern void GPUResidentDrawer_LogMessage_m7FF3E65D1A87DF183F9D29254AE637D842B88D41 (void);
+extern void GPUResidentBatcher_ProcessTrees_mA20D5412045E8AE5E485DE8F50B350F0A88538B7 (void);
+extern void GPUResidentBatcher_UpdateSpeedTreeWindAndUploadWindParamsToGPU_m1E26807F0F67557341970AC983776178A0E90490 (void);
 extern void GPUResidentDrawer_get_instance_m142CE6BEC88AA7FA34052B0138128C3B944FEBDD (void);
 extern void GPUResidentDrawer_IsInstanceOcclusionCullingEnabled_m03F098AAAA5FCB8140B53C641EB2B0381669BC8E (void);
 extern void GPUResidentDrawer_PostCullBeginCameraRendering_m3EB60CDFBF342ABD0B11B30439BB01B7CD6F1F77 (void);
@@ -249,8 +245,12 @@ extern void GPUResidentDrawer_ClassifyMaterials_m07623E4BDE7E899A29EB6E9A9DA2B9F
 extern void GPUResidentDrawer_FindUnsupportedRenderers_m1C0CB02546C7733938983343B8668CAC84E60772 (void);
 extern void GPUResidentDrawer_GetMaterialsWithChangedPackedMaterial_m112BC45C2CEA7D3B26EDE1B217430AA49E5EE0E8 (void);
 extern void GPUResidentDrawer_FindRenderersFromMaterialsOrMeshes_m8D69EF84FB8C5830ACB7E1261331459DF4DEE8F6 (void);
-extern void Strings__cctor_m40AEC7C35446DC97C6BA1EFB06EA5B4F5CAADAB4 (void);
+extern void GPUResidentDrawer_IsProjectSupported_m8070103F51F3975E8D573377D445553710EBA457 (void);
+extern void GPUResidentDrawer_IsProjectSupported_m4F5CDE5F81A0BE7CF42E37F1545E85A8C5A07DE3 (void);
+extern void GPUResidentDrawer_IsGPUResidentDrawerSupportedBySRP_m24CCB3D5623CD94D8DA06D20CE59806BC9D35922 (void);
+extern void GPUResidentDrawer_LogMessage_m7FF3E65D1A87DF183F9D29254AE637D842B88D41 (void);
 extern void FindRenderersFromMaterialOrMeshJob_Execute_m7B9713786ED58196A531F44ECABD1912DF45E59F (void);
+extern void Strings__cctor_m40AEC7C35446DC97C6BA1EFB06EA5B4F5CAADAB4 (void);
 extern void GPUResidentDrawerBurst_ClassifyMaterials_m9FEDC6820FD183791F7BD2B682CFFFBBF9DC9F40 (void);
 extern void GPUResidentDrawerBurst_FindUnsupportedRenderers_m927B5E54923278315B6256EA8178A34AA566B4BD (void);
 extern void GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_mC2D4AB98974823074A7E8543ED7A3D5BF7DB26FA (void);
@@ -708,6 +708,8 @@ extern void InstanceDataSystem_GetVisibleTreeInstances_m215114432B8645A102573A58
 extern void InstanceDataSystem_UpdatePerFrameInstanceVisibility_m1C6A42FA01165B8F7D05C4179DD093BE19AA4512 (void);
 extern void InstanceDataSystem_DeallocatePerCameraInstanceData_m49AE69E176C67DAACE81A9C940F49C11B1970D8F (void);
 extern void InstanceDataSystem_AllocatePerCameraInstanceData_m417012B36CE1176EB75BDE5052A9CCB91864389E (void);
+extern void InstanceTransformUpdateIDs__cctor_m22E50C74A91C8F98F112D7D4E8AD2D3CA77829C5 (void);
+extern void InstanceWindDataUpdateIDs__cctor_mDCE66DBD25DE0B17A7C41D329C4006A0AC407C09 (void);
 extern void QueryRendererGroupInstancesCountJob_Execute_m78EBD1A4D27FC820DB994D726466672AE6698114 (void);
 extern void ComputeInstancesOffsetAndResizeInstancesArrayJob_Execute_m7278A70AAF09ACD7DE06A58BBE53617ED59B3178 (void);
 extern void QueryRendererGroupInstancesJob_Execute_m689B8C96E8D3739314972C71A89F43C5DD8DD5EC (void);
@@ -722,8 +724,6 @@ extern void UpdateRendererInstancesJob_Execute_m93597D2184F6460DD4610AD8E47868B1
 extern void CollectInstancesLODGroupsAndMasksJob_Execute_m2EFF9AB4F3476E491E51143F7F60F79020A0F780 (void);
 extern void GetVisibleNonProcessedTreeInstancesJob_Execute_mEFBAD1E57760EF2F4C2A4F4E6F6F40E6261C284A (void);
 extern void UpdateCompactedInstanceVisibilityJob_Execute_mDFAB7C16E38743439A74CCA9AA310B383D2BA55B (void);
-extern void InstanceTransformUpdateIDs__cctor_m22E50C74A91C8F98F112D7D4E8AD2D3CA77829C5 (void);
-extern void InstanceWindDataUpdateIDs__cctor_mDCE66DBD25DE0B17A7C41D329C4006A0AC407C09 (void);
 extern void InstanceDataSystemBurst_ReallocateInstances_mF18C9347288DA7A9C194DFB92AC6A014D24975D9 (void);
 extern void InstanceDataSystemBurst_FreeRendererGroupInstances_mE5B774F1873565C1564044629ADC0EC240EC6547 (void);
 extern void InstanceDataSystemBurst_FreeInstances_m40A2076A7C0DE278135AD4A33911F95F2A94E630 (void);
@@ -1139,8 +1139,6 @@ static Il2CppMethodPointer s_methodPointers[984] =
 	ReceiverSphereCuller_Create_m63514E053CF0DD1CD37702E56C84F4F0408A8B00,
 	ReceiverSphereCuller_DistanceUntilCylinderFullyCrossesPlane_m1E5B038B031E5090A38EE0FF6EFC405E4BDD63E1,
 	ReceiverSphereCuller_ComputeSplitVisibilityMask_m1188332DCE2CBF80B1A431AFB1BD49955898936F,
-	GPUResidentBatcher_ProcessTrees_mA20D5412045E8AE5E485DE8F50B350F0A88538B7,
-	GPUResidentBatcher_UpdateSpeedTreeWindAndUploadWindParamsToGPU_m1E26807F0F67557341970AC983776178A0E90490,
 	GPUResidentBatcher_get_batchersContext_m832BD0381846BE2E11D425CE1319953A411D64CE,
 	GPUResidentBatcher_get_occlusionCullingCommon_mCC135850F6B339139CBA5E60715E4B059195CBC7,
 	GPUResidentBatcher_get_instanceCullingBatcher_m9E7BF9BA5E63072AB043C86836AC4C036AD5D465,
@@ -1164,10 +1162,8 @@ static Il2CppMethodPointer s_methodPointers[984] =
 	GPUResidentBatcher_UpdateRendererInstancesAndBatches_m7CC59149342BCCB17DE20FCD2BF0294D613B48B9,
 	GPUResidentBatcher_UpdateRendererBatches_m7FDCEBC6D9743BA42ED99E545EBBF438702B56DC,
 	GPUResidentBatcher_OnFinishedCulling_m3894D01381A5290564E27DC8315623AD4B21975D,
-	GPUResidentDrawer_IsProjectSupported_m8070103F51F3975E8D573377D445553710EBA457,
-	GPUResidentDrawer_IsProjectSupported_m4F5CDE5F81A0BE7CF42E37F1545E85A8C5A07DE3,
-	GPUResidentDrawer_IsGPUResidentDrawerSupportedBySRP_m24CCB3D5623CD94D8DA06D20CE59806BC9D35922,
-	GPUResidentDrawer_LogMessage_m7FF3E65D1A87DF183F9D29254AE637D842B88D41,
+	GPUResidentBatcher_ProcessTrees_mA20D5412045E8AE5E485DE8F50B350F0A88538B7,
+	GPUResidentBatcher_UpdateSpeedTreeWindAndUploadWindParamsToGPU_m1E26807F0F67557341970AC983776178A0E90490,
 	GPUResidentDrawer_get_instance_m142CE6BEC88AA7FA34052B0138128C3B944FEBDD,
 	GPUResidentDrawer_IsInstanceOcclusionCullingEnabled_m03F098AAAA5FCB8140B53C641EB2B0381669BC8E,
 	GPUResidentDrawer_PostCullBeginCameraRendering_m3EB60CDFBF342ABD0B11B30439BB01B7CD6F1F77,
@@ -1220,8 +1216,12 @@ static Il2CppMethodPointer s_methodPointers[984] =
 	GPUResidentDrawer_FindUnsupportedRenderers_m1C0CB02546C7733938983343B8668CAC84E60772,
 	GPUResidentDrawer_GetMaterialsWithChangedPackedMaterial_m112BC45C2CEA7D3B26EDE1B217430AA49E5EE0E8,
 	GPUResidentDrawer_FindRenderersFromMaterialsOrMeshes_m8D69EF84FB8C5830ACB7E1261331459DF4DEE8F6,
-	Strings__cctor_m40AEC7C35446DC97C6BA1EFB06EA5B4F5CAADAB4,
+	GPUResidentDrawer_IsProjectSupported_m8070103F51F3975E8D573377D445553710EBA457,
+	GPUResidentDrawer_IsProjectSupported_m4F5CDE5F81A0BE7CF42E37F1545E85A8C5A07DE3,
+	GPUResidentDrawer_IsGPUResidentDrawerSupportedBySRP_m24CCB3D5623CD94D8DA06D20CE59806BC9D35922,
+	GPUResidentDrawer_LogMessage_m7FF3E65D1A87DF183F9D29254AE637D842B88D41,
 	FindRenderersFromMaterialOrMeshJob_Execute_m7B9713786ED58196A531F44ECABD1912DF45E59F,
+	Strings__cctor_m40AEC7C35446DC97C6BA1EFB06EA5B4F5CAADAB4,
 	GPUResidentDrawerBurst_ClassifyMaterials_m9FEDC6820FD183791F7BD2B682CFFFBBF9DC9F40,
 	GPUResidentDrawerBurst_FindUnsupportedRenderers_m927B5E54923278315B6256EA8178A34AA566B4BD,
 	GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_mC2D4AB98974823074A7E8543ED7A3D5BF7DB26FA,
@@ -1651,7 +1651,6 @@ static Il2CppMethodPointer s_methodPointers[984] =
 	ReadOnly__ctor_m2029FDC41CDEC78F717316642DB33534904EC6E2,
 	PackedMatrix_FromMatrix4x4_mD8BF568A72FAFAA50614FD1F9DA6A7F257CB3E77,
 	PackedMatrix_FromFloat4x4_m2EEC3F97BB2E382DD01F31AE83B11D73F2579A9D,
-	NULL,
 	InstanceDataSystem_get_hasBoundingSpheres_mE95EB4398294EC395CE2A5A16F5D86EF8D86AFBF,
 	InstanceDataSystem_get_instanceData_mCB763544E2728F9E48CEF5CB5284044D1C61CDF1,
 	InstanceDataSystem_get_perCameraInstanceData_mFE326CC0E7C00FDCF8279605C3D995AEAADEAB0D,
@@ -1692,6 +1691,9 @@ static Il2CppMethodPointer s_methodPointers[984] =
 	InstanceDataSystem_UpdatePerFrameInstanceVisibility_m1C6A42FA01165B8F7D05C4179DD093BE19AA4512,
 	InstanceDataSystem_DeallocatePerCameraInstanceData_m49AE69E176C67DAACE81A9C940F49C11B1970D8F,
 	InstanceDataSystem_AllocatePerCameraInstanceData_m417012B36CE1176EB75BDE5052A9CCB91864389E,
+	NULL,
+	InstanceTransformUpdateIDs__cctor_m22E50C74A91C8F98F112D7D4E8AD2D3CA77829C5,
+	InstanceWindDataUpdateIDs__cctor_mDCE66DBD25DE0B17A7C41D329C4006A0AC407C09,
 	QueryRendererGroupInstancesCountJob_Execute_m78EBD1A4D27FC820DB994D726466672AE6698114,
 	ComputeInstancesOffsetAndResizeInstancesArrayJob_Execute_m7278A70AAF09ACD7DE06A58BBE53617ED59B3178,
 	QueryRendererGroupInstancesJob_Execute_m689B8C96E8D3739314972C71A89F43C5DD8DD5EC,
@@ -1706,8 +1708,6 @@ static Il2CppMethodPointer s_methodPointers[984] =
 	CollectInstancesLODGroupsAndMasksJob_Execute_m2EFF9AB4F3476E491E51143F7F60F79020A0F780,
 	GetVisibleNonProcessedTreeInstancesJob_Execute_mEFBAD1E57760EF2F4C2A4F4E6F6F40E6261C284A,
 	UpdateCompactedInstanceVisibilityJob_Execute_mDFAB7C16E38743439A74CCA9AA310B383D2BA55B,
-	InstanceTransformUpdateIDs__cctor_m22E50C74A91C8F98F112D7D4E8AD2D3CA77829C5,
-	InstanceWindDataUpdateIDs__cctor_mDCE66DBD25DE0B17A7C41D329C4006A0AC407C09,
 	InstanceDataSystemBurst_ReallocateInstances_mF18C9347288DA7A9C194DFB92AC6A014D24975D9,
 	InstanceDataSystemBurst_FreeRendererGroupInstances_mE5B774F1873565C1564044629ADC0EC240EC6547,
 	InstanceDataSystemBurst_FreeInstances_m40A2076A7C0DE278135AD4A33911F95F2A94E630,
@@ -2352,7 +2352,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[366] =
 	{ 0x06000090, PlanePacket4__ctor_m1B67A6C35FB1B6B6BE21D76B496DA3531F636CC7_AdjustorThunk },
 	{ 0x06000092, ReceiverSphereCuller_Dispose_mFCC83320D29032DBC7A3173ADFE8F764A472FFA5_AdjustorThunk },
 	{ 0x06000093, ReceiverSphereCuller_UseReceiverPlanes_mEA2EE8FE32563F3FBE40D6AADA9724719186674E_AdjustorThunk },
-	{ 0x060000E9, FindRenderersFromMaterialOrMeshJob_Execute_m7B9713786ED58196A531F44ECABD1912DF45E59F_AdjustorThunk },
+	{ 0x060000E8, FindRenderersFromMaterialOrMeshJob_Execute_m7B9713786ED58196A531F44ECABD1912DF45E59F_AdjustorThunk },
 	{ 0x0600011E, OcclusionCullingSettings__ctor_mE814849AC60B1DC1AC17E02F1AF2128DF38FE95A_AdjustorThunk },
 	{ 0x0600011F, OccluderSubviewUpdate__ctor_m482C60BE94ECE0B1F15E930936345D9F60E399A8_AdjustorThunk },
 	{ 0x06000120, OccluderParameters__ctor_mBBA1CD9856BD109C9F1D18715B28E2DA95CE83D9_AdjustorThunk },
@@ -2607,20 +2607,20 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[366] =
 	{ 0x06000292, EditorInstanceDataArrays_Remove_mC3970E725DCDCEA7B636C2DCB4732C432787AE35_AdjustorThunk },
 	{ 0x06000293, EditorInstanceDataArrays_SetDefault_mBB385CE94C9E46ADADB174CEFB393C2A19245724_AdjustorThunk },
 	{ 0x06000294, ReadOnly__ctor_m2029FDC41CDEC78F717316642DB33534904EC6E2_AdjustorThunk },
-	{ 0x060002C0, QueryRendererGroupInstancesCountJob_Execute_m78EBD1A4D27FC820DB994D726466672AE6698114_AdjustorThunk },
-	{ 0x060002C1, ComputeInstancesOffsetAndResizeInstancesArrayJob_Execute_m7278A70AAF09ACD7DE06A58BBE53617ED59B3178_AdjustorThunk },
-	{ 0x060002C2, QueryRendererGroupInstancesJob_Execute_m689B8C96E8D3739314972C71A89F43C5DD8DD5EC_AdjustorThunk },
-	{ 0x060002C3, QueryRendererGroupInstancesMultiJob_Execute_m3ED5F46C8E2BBCFD2302EBF30F55D07CB4292593_AdjustorThunk },
-	{ 0x060002C4, QuerySortedMeshInstancesJob_Execute_m0B30D3DBCCB8FE5833D677F735387912A448CCDF_AdjustorThunk },
-	{ 0x060002C5, CalculateInterpolatedLightAndOcclusionProbesBatchJob_Execute_mB29926232C46662441F96B9405E9BE4D3A84109B_AdjustorThunk },
-	{ 0x060002C6, ScatterTetrahedronCacheIndicesJob_Execute_m157E3BAA3AA5106CD5629211DB4DF10C941B0942_AdjustorThunk },
-	{ 0x060002C7, TransformUpdateJob_Execute_m0C99BC8B89AD60C1B495E471F9F02FBEEF7F8342_AdjustorThunk },
-	{ 0x060002C8, ProbesUpdateJob_Execute_mFACBB95DE46DB9C879C2EE745CE37C4AEFB69AD6_AdjustorThunk },
-	{ 0x060002C9, MotionUpdateJob_Execute_m266055F93AABA39FD53E7EDBD6BAFE55F586891B_AdjustorThunk },
-	{ 0x060002CA, UpdateRendererInstancesJob_Execute_m93597D2184F6460DD4610AD8E47868B1BA87A11C_AdjustorThunk },
-	{ 0x060002CB, CollectInstancesLODGroupsAndMasksJob_Execute_m2EFF9AB4F3476E491E51143F7F60F79020A0F780_AdjustorThunk },
-	{ 0x060002CC, GetVisibleNonProcessedTreeInstancesJob_Execute_mEFBAD1E57760EF2F4C2A4F4E6F6F40E6261C284A_AdjustorThunk },
-	{ 0x060002CD, UpdateCompactedInstanceVisibilityJob_Execute_mDFAB7C16E38743439A74CCA9AA310B383D2BA55B_AdjustorThunk },
+	{ 0x060002C2, QueryRendererGroupInstancesCountJob_Execute_m78EBD1A4D27FC820DB994D726466672AE6698114_AdjustorThunk },
+	{ 0x060002C3, ComputeInstancesOffsetAndResizeInstancesArrayJob_Execute_m7278A70AAF09ACD7DE06A58BBE53617ED59B3178_AdjustorThunk },
+	{ 0x060002C4, QueryRendererGroupInstancesJob_Execute_m689B8C96E8D3739314972C71A89F43C5DD8DD5EC_AdjustorThunk },
+	{ 0x060002C5, QueryRendererGroupInstancesMultiJob_Execute_m3ED5F46C8E2BBCFD2302EBF30F55D07CB4292593_AdjustorThunk },
+	{ 0x060002C6, QuerySortedMeshInstancesJob_Execute_m0B30D3DBCCB8FE5833D677F735387912A448CCDF_AdjustorThunk },
+	{ 0x060002C7, CalculateInterpolatedLightAndOcclusionProbesBatchJob_Execute_mB29926232C46662441F96B9405E9BE4D3A84109B_AdjustorThunk },
+	{ 0x060002C8, ScatterTetrahedronCacheIndicesJob_Execute_m157E3BAA3AA5106CD5629211DB4DF10C941B0942_AdjustorThunk },
+	{ 0x060002C9, TransformUpdateJob_Execute_m0C99BC8B89AD60C1B495E471F9F02FBEEF7F8342_AdjustorThunk },
+	{ 0x060002CA, ProbesUpdateJob_Execute_mFACBB95DE46DB9C879C2EE745CE37C4AEFB69AD6_AdjustorThunk },
+	{ 0x060002CB, MotionUpdateJob_Execute_m266055F93AABA39FD53E7EDBD6BAFE55F586891B_AdjustorThunk },
+	{ 0x060002CC, UpdateRendererInstancesJob_Execute_m93597D2184F6460DD4610AD8E47868B1BA87A11C_AdjustorThunk },
+	{ 0x060002CD, CollectInstancesLODGroupsAndMasksJob_Execute_m2EFF9AB4F3476E491E51143F7F60F79020A0F780_AdjustorThunk },
+	{ 0x060002CE, GetVisibleNonProcessedTreeInstancesJob_Execute_mEFBAD1E57760EF2F4C2A4F4E6F6F40E6261C284A_AdjustorThunk },
+	{ 0x060002CF, UpdateCompactedInstanceVisibilityJob_Execute_mDFAB7C16E38743439A74CCA9AA310B383D2BA55B_AdjustorThunk },
 	{ 0x060002F3, InstanceNumInfo_InitDefault_m8CC8A9E8EBF0EF16311F391E0312C46A7219A920_AdjustorThunk },
 	{ 0x060002F4, InstanceNumInfo__ctor_m0C64766A7024C367CB84BA96F01861E951351650_AdjustorThunk },
 	{ 0x060002F5, InstanceNumInfo__ctor_mCFED34B4FC73F15366339611E22502A8366B016C_AdjustorThunk },
@@ -2861,8 +2861,6 @@ static const int32_t s_InvokerIndices[984] =
 	21707,
 	18276,
 	18284,
-	15485,
-	2408,
 	15288,
 	15288,
 	15288,
@@ -2886,10 +2884,8 @@ static const int32_t s_InvokerIndices[984] =
 	2479,
 	2479,
 	11695,
-	26431,
-	20952,
-	19004,
-	22529,
+	15485,
+	2408,
 	26482,
 	26431,
 	25309,
@@ -2942,8 +2938,12 @@ static const int32_t s_InvokerIndices[984] =
 	6646,
 	2020,
 	1023,
-	26573,
+	26431,
+	20952,
+	19004,
+	22529,
 	5467,
+	26573,
 	17321,
 	18310,
 	18310,
@@ -3373,7 +3373,6 @@ static const int32_t s_InvokerIndices[984] =
 	11513,
 	24965,
 	24965,
-	-1,
 	15092,
 	15565,
 	15093,
@@ -3414,6 +3413,9 @@ static const int32_t s_InvokerIndices[984] =
 	11513,
 	10941,
 	10941,
+	-1,
+	26573,
+	26573,
 	5467,
 	15485,
 	5467,
@@ -3428,8 +3430,6 @@ static const int32_t s_InvokerIndices[984] =
 	11693,
 	5467,
 	5467,
-	26573,
-	26573,
 	15865,
 	16258,
 	16258,
@@ -3716,7 +3716,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[7] =
 	{ 0x060001D7, { 1, 1 } },
 	{ 0x060001D9, { 2, 2 } },
 	{ 0x060001DA, { 4, 4 } },
-	{ 0x06000297, { 8, 6 } },
+	{ 0x060002BF, { 8, 6 } },
 	{ 0x060003BC, { 14, 3 } },
 	{ 0x060003BD, { 17, 1 } },
 };

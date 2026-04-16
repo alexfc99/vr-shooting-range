@@ -1,3 +1,4 @@
+using DefaultNamespace;
 using UnityEngine;
 
 public class Target : MonoBehaviour
@@ -18,6 +19,7 @@ public class Target : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            ScoreScript.Instance.AddScore(1);
             Destroy(this.gameObject);
         }
     }

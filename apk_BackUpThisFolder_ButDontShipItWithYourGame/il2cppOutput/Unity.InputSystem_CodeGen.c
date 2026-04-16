@@ -3689,15 +3689,15 @@ extern void QueryDimensionsCommand_Create_m7F9B48EB6642DF7D6A8271D70FC291A8033CB
 extern void QueryEnabledStateCommand_get_Type_m5A6F1768EA6D487A118F2861AE4ED9485F62ABD5 (void);
 extern void QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744 (void);
 extern void QueryEnabledStateCommand_Create_m35BA66068A3B4897154F829D338C4CA6FF469107 (void);
-extern void QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (void);
-extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (void);
-extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (void);
-extern void QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D (void);
 extern void QueryKeyboardLayoutCommand_get_Type_mD6B795EB9B588A1F1A3D3147A3D2CF67EFE37857 (void);
 extern void QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE (void);
 extern void QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE (void);
 extern void QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F (void);
 extern void QueryKeyboardLayoutCommand_Create_m03C609EDFB9066507281CCF36EB8961EA5D6F6F9 (void);
+extern void QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (void);
+extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (void);
+extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (void);
+extern void QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D (void);
 extern void QueryPairedUserAccountCommand_get_Type_m44803FA194663CC41EEE3C7EF7498C07992AFED5 (void);
 extern void QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB (void);
 extern void QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE (void);
@@ -4864,13 +4864,13 @@ extern void Enumerator_Reset_m81A075BD1B8025F01A01697CE29AB6A47FDE4224 (void);
 extern void Enumerator_Dispose_m9790CF196DD2B4BA2BE0D22193A856CC91BD4A65 (void);
 extern void Enumerator_get_Current_m72460218A339059A12B275819928F3867FA1409E (void);
 extern void Enumerator_System_Collections_IEnumerator_get_Current_mEB1C895F1A42B12278CA02B62403E00B08BA06CC (void);
+extern void Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (void);
+extern void Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (void);
 extern void CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475 (void);
 extern void CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439 (void);
 extern void CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5 (void);
 extern void CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E (void);
 extern void CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA (void);
-extern void Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (void);
-extern void Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (void);
 extern void DelegateHelpers_InvokeCallbacksSafe_mB9E96D96541963161475D7B7E297C5DC5CDE8265 (void);
 extern void DisplayStringFormatAttribute_get_formatString_mCB36763A3E35FBFF23E0010B14CCB693A8414519 (void);
 extern void DisplayStringFormatAttribute_set_formatString_mBAA0AC2BE26A8D0186624C1D8821D5D0C6110F74 (void);
@@ -9094,15 +9094,15 @@ static Il2CppMethodPointer s_methodPointers[5695] =
 	QueryEnabledStateCommand_get_Type_m5A6F1768EA6D487A118F2861AE4ED9485F62ABD5,
 	QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744,
 	QueryEnabledStateCommand_Create_m35BA66068A3B4897154F829D338C4CA6FF469107,
-	QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089,
-	QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E,
-	QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3,
-	QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D,
 	QueryKeyboardLayoutCommand_get_Type_mD6B795EB9B588A1F1A3D3147A3D2CF67EFE37857,
 	QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE,
 	QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE,
 	QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F,
 	QueryKeyboardLayoutCommand_Create_m03C609EDFB9066507281CCF36EB8961EA5D6F6F9,
+	QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089,
+	QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E,
+	QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3,
+	QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D,
 	QueryPairedUserAccountCommand_get_Type_m44803FA194663CC41EEE3C7EF7498C07992AFED5,
 	QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB,
 	QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE,
@@ -10421,11 +10421,6 @@ static Il2CppMethodPointer s_methodPointers[5695] =
 	NULL,
 	NULL,
 	NULL,
-	CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475,
-	CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439,
-	CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5,
-	CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E,
-	CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA,
 	NULL,
 	NULL,
 	NULL,
@@ -10435,6 +10430,11 @@ static Il2CppMethodPointer s_methodPointers[5695] =
 	NULL,
 	Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1,
 	Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39,
+	CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475,
+	CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439,
+	CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5,
+	CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E,
+	CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA,
 	DelegateHelpers_InvokeCallbacksSafe_mB9E96D96541963161475D7B7E297C5DC5CDE8265,
 	NULL,
 	NULL,
@@ -11568,11 +11568,11 @@ extern void InputDeviceCommand_get_typeStatic_m50C7C954EE7CA7B20757F2874C08D0FFF
 extern void QueryCanRunInBackground_get_typeStatic_m18F466F00C744F3136183AD33D6E562F161A594D_AdjustorThunk (void);
 extern void QueryDimensionsCommand_get_typeStatic_mDCF9B62F3BF35868211DAC4674B20B649F199141_AdjustorThunk (void);
 extern void QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744_AdjustorThunk (void);
-extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk (void);
-extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk (void);
 extern void QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE_AdjustorThunk (void);
 extern void QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE_AdjustorThunk (void);
 extern void QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F_AdjustorThunk (void);
+extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk (void);
+extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk (void);
 extern void QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB_AdjustorThunk (void);
 extern void QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE_AdjustorThunk (void);
 extern void QueryPairedUserAccountCommand_get_name_m405A615F44272337724373D19F46B1258C18C856_AdjustorThunk (void);
@@ -12810,11 +12810,11 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1240] =
 	{ 0x06000F29, QueryCanRunInBackground_get_typeStatic_m18F466F00C744F3136183AD33D6E562F161A594D_AdjustorThunk },
 	{ 0x06000F2C, QueryDimensionsCommand_get_typeStatic_mDCF9B62F3BF35868211DAC4674B20B649F199141_AdjustorThunk },
 	{ 0x06000F2F, QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744_AdjustorThunk },
-	{ 0x06000F32, QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk },
-	{ 0x06000F33, QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk },
-	{ 0x06000F36, QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE_AdjustorThunk },
-	{ 0x06000F37, QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE_AdjustorThunk },
-	{ 0x06000F38, QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F_AdjustorThunk },
+	{ 0x06000F32, QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE_AdjustorThunk },
+	{ 0x06000F33, QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE_AdjustorThunk },
+	{ 0x06000F34, QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F_AdjustorThunk },
+	{ 0x06000F37, QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk },
+	{ 0x06000F38, QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk },
 	{ 0x06000F3B, QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB_AdjustorThunk },
 	{ 0x06000F3C, QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE_AdjustorThunk },
 	{ 0x06000F3D, QueryPairedUserAccountCommand_get_name_m405A615F44272337724373D19F46B1258C18C856_AdjustorThunk },
@@ -13251,8 +13251,8 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1240] =
 	{ 0x06001428, Enumerator_Dispose_m9790CF196DD2B4BA2BE0D22193A856CC91BD4A65_AdjustorThunk },
 	{ 0x06001429, Enumerator_get_Current_m72460218A339059A12B275819928F3867FA1409E_AdjustorThunk },
 	{ 0x0600142A, Enumerator_System_Collections_IEnumerator_get_Current_mEB1C895F1A42B12278CA02B62403E00B08BA06CC_AdjustorThunk },
-	{ 0x0600146C, Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1_AdjustorThunk },
-	{ 0x0600146D, Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39_AdjustorThunk },
+	{ 0x06001467, Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1_AdjustorThunk },
+	{ 0x06001468, Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39_AdjustorThunk },
 	{ 0x06001478, FourCC__ctor_mE761C8779BB6DC85BA1662DC9ECEC39D62ED9A56_AdjustorThunk },
 	{ 0x06001479, FourCC__ctor_mFE3A3F80C6900CD18CB9BDD3C9B604823F2E791F_AdjustorThunk },
 	{ 0x0600147A, FourCC__ctor_m305163ED105CA8143DBB6D7D31A77124105B8201_AdjustorThunk },
@@ -17277,13 +17277,13 @@ static const int32_t s_InvokerIndices[5695] =
 	26500,
 	26449,
 	15288,
-	15157,
-	24994,
-	26449,
-	15288,
 	11758,
 	15157,
 	26501,
+	26449,
+	15288,
+	15157,
+	24994,
 	26449,
 	15288,
 	11758,
@@ -18602,11 +18602,6 @@ static const int32_t s_InvokerIndices[5695] =
 	-1,
 	-1,
 	-1,
-	24569,
-	24569,
-	24569,
-	21621,
-	21621,
 	-1,
 	-1,
 	-1,
@@ -18616,6 +18611,11 @@ static const int32_t s_InvokerIndices[5695] =
 	-1,
 	4310,
 	4316,
+	24569,
+	24569,
+	24569,
+	21621,
+	21621,
 	18362,
 	-1,
 	-1,
@@ -19099,7 +19099,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[204] =
 	{ 0x020001E7, { 410, 8 } },
 	{ 0x02000235, { 643, 4 } },
 	{ 0x02000237, { 647, 4 } },
-	{ 0x02000239, { 651, 14 } },
+	{ 0x02000238, { 651, 14 } },
 	{ 0x02000240, { 713, 33 } },
 	{ 0x02000241, { 751, 7 } },
 	{ 0x0200024C, { 789, 10 } },

@@ -332,9 +332,11 @@ UnityEngine.AudioSettings::StopAudioOutput
 UnityEngine.AudioSource::PlayHelper_Injected
 UnityEngine.AudioSource::PlayOneShotHelper_Injected
 UnityEngine.AudioSource::Play_Injected
+UnityEngine.AudioSource::SetPitch_Injected
 UnityEngine.AudioSource::set_loop_Injected
 UnityEngine.AudioSource::set_playOnAwake_Injected
 UnityEngine.AudioSource::set_resource_Injected
+UnityEngine.AudioSource::set_volume_Injected
 UnityEngine.Awaitable::IsNativeAwaitableCompleted
 UnityEngine.Awaitable::CancelNativeAwaitable
 UnityEngine.Awaitable::ReleaseNativeAwaitable
@@ -383,7 +385,6 @@ UnityEngine.Camera::ScreenToWorldPoint_Injected
 UnityEngine.Camera::SetStereoProjectionMatrix_Injected
 UnityEngine.Camera::SetStereoViewMatrix_Injected
 UnityEngine.Camera::SetupCurrent_Injected
-UnityEngine.Camera::ViewportToWorldPoint_Injected
 UnityEngine.Camera::WorldToScreenPoint_Injected
 UnityEngine.Camera::WorldToViewportPoint_Injected
 UnityEngine.Camera::get_backgroundColor_Injected
@@ -1061,7 +1062,6 @@ UnityEngine.ParticleSystem::IsAlive_Injected
 UnityEngine.ParticleSystem::EmitOld_Internal_Injected
 UnityEngine.ParticleSystem::Emit_Injected
 UnityEngine.ParticleSystem::Emit_Internal_Injected
-UnityEngine.ParticleSystem::Play_Injected
 UnityEngine.ParticleSystem::SetParticles_Injected
 UnityEngine.ParticleSystem::Stop_Injected
 UnityEngine.ParticleSystem/MainModule::get_loop
@@ -1135,6 +1135,7 @@ UnityEngine.Random::RandomRangeInt
 UnityEngine.Random::Range
 UnityEngine.Random::get_value
 UnityEngine.Random::InitState
+UnityEngine.Random::get_onUnitSphere_Injected
 UnityEngine.Random::get_state_Injected
 UnityEngine.Random::set_state_Injected
 UnityEngine.RectOffset::get_bottom_Injected
