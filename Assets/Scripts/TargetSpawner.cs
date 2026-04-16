@@ -98,13 +98,7 @@ public class TargetSpawner : MonoBehaviour
         }
     }
     
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Bullet"))
-        {
-            Destroy(gameObject);
-        }
-    }
+  
 
     void Update()
     {

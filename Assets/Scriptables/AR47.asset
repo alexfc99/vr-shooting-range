@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4719695e315003763ab43e3a697f3b0d, type: 3}
+  m_Name: AR47
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  model: AK-47
+  damage: 40
+  fireRate: 0.1
+  firePower: 150
+  reloadTime: 1.5
+  maxAmmo: 210
+  magCapacity: 30
+  bullet: {fileID: 11400000, guid: ef2ac9dce7bcc81dd9a47a0c35bbe3ec, type: 2}
+  fireSound: {fileID: 8300000, guid: 78499e00fa6124be287f9d362892960c, type: 3}
+  fireType: 1
+  burstCount: 3
+  pelletsPerShot: 8
+  spread: 0.019
+  pitchRange: {x: 0.85, y: 0.9}
+  volumeRange: {x: 0.85, y: 1}

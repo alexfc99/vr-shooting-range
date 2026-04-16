@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ShootField.unity
     guid: b0e400ce24d15f41f86954ea051e7adc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Demo.unity
     guid: f56f47260ea6ff54cb92d3bbd0f313ed
+  - enabled: 1
+    path: Assets/Scenes/Range.unity
+    guid: 3821b0eac89c1ef8e90076f8c339ad23
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6743044868e279bbfb5f0c6c501219b9, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4434252558523066933}
   - component: {fileID: 1534064449633055429}
   - component: {fileID: 5052613425632232464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 4617593337334117177}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.407, y: 1.33314, z: 2.3521}
-  m_LocalScale: {x: 0.02, y: 0.015055848, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.02, y: 0.015, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3394197327547589149}
@@ -70,7 +70,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 638ea8f69fa49d6cdb940f246e504133, type: 2}
+  - {fileID: 2100000, guid: 676f1c9a6feb19c3a943c13bf28e745b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,8 +112,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.41900715
+  m_Center: {x: 0, y: -0.53794914, z: 0}
 --- !u!114 &1534064449633055429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &8652777121851152729
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 3394197327547589149}
   - component: {fileID: 2949868098217445246}
   - component: {fileID: 8863227477267618329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 638ea8f69fa49d6cdb940f246e504133, type: 2}
+  - {fileID: 2100000, guid: 676f1c9a6feb19c3a943c13bf28e745b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

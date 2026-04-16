@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4719695e315003763ab43e3a697f3b0d, type: 3}
+  m_Name: MP5
+  m_EditorClassIdentifier: Assembly-CSharp::Scriptables.Weapon
+  model: MP5
+  damage: 25
+  fireRate: 0.075
+  firePower: 100
+  reloadTime: 1.2
+  maxAmmo: 180
+  magCapacity: 30
+  bullet: {fileID: 11400000, guid: 8111b72249dbb3486882f22f86666873, type: 2}
+  fireSound: {fileID: 8300000, guid: 78499e00fa6124be287f9d362892960c, type: 3}
+  fireType: 1
+  burstCount: 3
+  pelletsPerShot: 8
+  spread: 0.04
+  pitchRange: {x: 0.95, y: 1.05}
+  volumeRange: {x: 0.9, y: 1.25}
